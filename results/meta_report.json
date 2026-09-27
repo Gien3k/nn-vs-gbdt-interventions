@@ -1,0 +1,551 @@
+{
+  "n_datasets": 61,
+  "base_rate_nn_wins": 0.3442622950819672,
+  "clf_accuracy": 0.7377049180327869,
+  "clf_balanced_accuracy": 0.6755952380952381,
+  "clf_auc": 0.7761904761904762,
+  "reg_spearman_rho": 0.315018508725542,
+  "reg_spearman_p": 0.013406425803214349,
+  "baseline_majority_acc": 0.6557377049180328,
+  "per_dataset": [
+    {
+      "dataset_id": 1049,
+      "name": "pc4",
+      "true_margin": -0.02699093943729114,
+      "pred_margin": 0.000469420089284825,
+      "p_nn_wins": 0.08814324215603465
+    },
+    {
+      "dataset_id": 1050,
+      "name": "pc3",
+      "true_margin": -0.00621312915777561,
+      "pred_margin": -0.01944865620223787,
+      "p_nn_wins": 0.012034081811879687
+    },
+    {
+      "dataset_id": 1053,
+      "name": "jm1",
+      "true_margin": -0.013236856989491175,
+      "pred_margin": -0.020928483662878732,
+      "p_nn_wins": 0.01635897971005063
+    },
+    {
+      "dataset_id": 1067,
+      "name": "kc1",
+      "true_margin": -0.0071428571428572285,
+      "pred_margin": -0.02393461759302707,
+      "p_nn_wins": 0.007731685847594942
+    },
+    {
+      "dataset_id": 1068,
+      "name": "pc1",
+      "true_margin": 0.005730427764325974,
+      "pred_margin": -0.002853041192866559,
+      "p_nn_wins": 0.9743762276762382
+    },
+    {
+      "dataset_id": 11,
+      "name": "balance-scale",
+      "true_margin": 0.03401382264061037,
+      "pred_margin": -0.029568791024060934,
+      "p_nn_wins": 0.21213059755549307
+    },
+    {
+      "dataset_id": 12,
+      "name": "mfeat-factors",
+      "true_margin": 0.001403566411923074,
+      "pred_margin": 0.0016241877499026196,
+      "p_nn_wins": 0.8445502294535561
+    },
+    {
+      "dataset_id": 14,
+      "name": "mfeat-fourier",
+      "true_margin": -0.0027406613813300007,
+      "pred_margin": 0.0027544245802839755,
+      "p_nn_wins": 0.8076552469117538
+    },
+    {
+      "dataset_id": 1461,
+      "name": "bank-marketing",
+      "true_margin": -0.003890186348931679,
+      "pred_margin": -0.01905197200579555,
+      "p_nn_wins": 0.004602647883857505
+    },
+    {
+      "dataset_id": 1462,
+      "name": "banknote-authentication",
+      "true_margin": 0.0007532122286221243,
+      "pred_margin": 0.0047871908631771315,
+      "p_nn_wins": 0.04377688283721549
+    },
+    {
+      "dataset_id": 1464,
+      "name": "blood-transfusion-service-center",
+      "true_margin": -0.03329004329004326,
+      "pred_margin": -0.05262555875461516,
+      "p_nn_wins": 0.012366851389466242
+    },
+    {
+      "dataset_id": 1475,
+      "name": "first-order-theorem-proving",
+      "true_margin": -0.04442977762863387,
+      "pred_margin": -0.0322380986259377,
+      "p_nn_wins": 0.02647319458094185
+    },
+    {
+      "dataset_id": 1480,
+      "name": "ilpd",
+      "true_margin": -0.10108492330714558,
+      "pred_margin": -0.013250245848810861,
+      "p_nn_wins": 0.00814358860232048
+    },
+    {
+      "dataset_id": 1485,
+      "name": "madelon",
+      "true_margin": -0.3219171597633137,
+      "pred_margin": -0.02901461396421968,
+      "p_nn_wins": 0.0015480685988305263
+    },
+    {
+      "dataset_id": 1486,
+      "name": "nomao",
+      "true_margin": -0.0024889778402545915,
+      "pred_margin": -0.0030132602086002207,
+      "p_nn_wins": 0.08556197967926922
+    },
+    {
+      "dataset_id": 1487,
+      "name": "ozone-level-8hr",
+      "true_margin": -0.0265822784810128,
+      "pred_margin": -0.008415095394557526,
+      "p_nn_wins": 0.005640104546177881
+    },
+    {
+      "dataset_id": 1489,
+      "name": "phoneme",
+      "true_margin": -0.022417339947243597,
+      "pred_margin": -0.010824352291612764,
+      "p_nn_wins": 0.02571443778456063
+    },
+    {
+      "dataset_id": 1494,
+      "name": "qsar-biodeg",
+      "true_margin": 0.007424547283702232,
+      "pred_margin": -0.00102223372775727,
+      "p_nn_wins": 0.007375943511720981
+    },
+    {
+      "dataset_id": 1497,
+      "name": "wall-robot-navigation",
+      "true_margin": -0.013461324424365428,
+      "pred_margin": -0.012178967896057205,
+      "p_nn_wins": 0.19906992883540653
+    },
+    {
+      "dataset_id": 1501,
+      "name": "semeion",
+      "true_margin": -9.354374872749815e-05,
+      "pred_margin": -0.03449157007417567,
+      "p_nn_wins": 0.21288253668810855
+    },
+    {
+      "dataset_id": 151,
+      "name": "electricity",
+      "true_margin": -0.06514212161863164,
+      "pred_margin": -0.012022628076204125,
+      "p_nn_wins": 0.09004192947178714
+    },
+    {
+      "dataset_id": 1510,
+      "name": "wdbc",
+      "true_margin": 0.0009171306911232024,
+      "pred_margin": -0.03587532517864102,
+      "p_nn_wins": 0.9763690417935772
+    },
+    {
+      "dataset_id": 1590,
+      "name": "adult",
+      "true_margin": -0.017641000653370265,
+      "pred_margin": -0.018993681535963657,
+      "p_nn_wins": 0.004077913161467527
+    },
+    {
+      "dataset_id": 16,
+      "name": "mfeat-karhunen",
+      "true_margin": -0.00018782388559557273,
+      "pred_margin": -0.0015091383758254855,
+      "p_nn_wins": 0.23980376138441972
+    },
+    {
+      "dataset_id": 18,
+      "name": "mfeat-morphological",
+      "true_margin": 0.004712778452332755,
+      "pred_margin": 0.004334489358647426,
+      "p_nn_wins": 0.6770160580875166
+    },
+    {
+      "dataset_id": 182,
+      "name": "satimage",
+      "true_margin": -0.0010329365495707066,
+      "pred_margin": -0.0011770011415646062,
+      "p_nn_wins": 0.05208759930701721
+    },
+    {
+      "dataset_id": 188,
+      "name": "eucalyptus",
+      "true_margin": 0.0329489198992885,
+      "pred_margin": -0.04466299483951518,
+      "p_nn_wins": 0.1716790373509211
+    },
+    {
+      "dataset_id": 22,
+      "name": "mfeat-zernike",
+      "true_margin": 0.009601828044028538,
+      "pred_margin": 0.0009431924884476943,
+      "p_nn_wins": 0.07502735681480016
+    },
+    {
+      "dataset_id": 23,
+      "name": "cmc",
+      "true_margin": -0.013926640039062521,
+      "pred_margin": -0.04358380062001341,
+      "p_nn_wins": 0.0039049848492365433
+    },
+    {
+      "dataset_id": 23381,
+      "name": "dresses-sales",
+      "true_margin": -0.044252873563218276,
+      "pred_margin": -0.03741167531125395,
+      "p_nn_wins": 0.02187533192100373
+    },
+    {
+      "dataset_id": 23517,
+      "name": "numerai28.6",
+      "true_margin": 0.00503635673234426,
+      "pred_margin": -0.014377577803492197,
+      "p_nn_wins": 0.988254376050928
+    },
+    {
+      "dataset_id": 28,
+      "name": "optdigits",
+      "true_margin": 7.140144520001446e-05,
+      "pred_margin": -0.002000254239727172,
+      "p_nn_wins": 0.1353320585806191
+    },
+    {
+      "dataset_id": 29,
+      "name": "credit-approval",
+      "true_margin": 0.0037896529699806836,
+      "pred_margin": 0.0008440215840545255,
+      "p_nn_wins": 0.01228382555528576
+    },
+    {
+      "dataset_id": 3,
+      "name": "kr-vs-kp",
+      "true_margin": -0.00048726077257255085,
+      "pred_margin": -0.0018414207771422805,
+      "p_nn_wins": 0.009149691706111645
+    },
+    {
+      "dataset_id": 307,
+      "name": "vowel",
+      "true_margin": 0.005561167227833841,
+      "pred_margin": -0.03370034371374659,
+      "p_nn_wins": 0.717612289286779
+    },
+    {
+      "dataset_id": 31,
+      "name": "credit-g",
+      "true_margin": -0.0205238095238095,
+      "pred_margin": -0.018344948207930745,
+      "p_nn_wins": 0.00483720662533005
+    },
+    {
+      "dataset_id": 32,
+      "name": "pendigits",
+      "true_margin": -0.0002360915340726688,
+      "pred_margin": -0.00027942657514155395,
+      "p_nn_wins": 0.997962045490276
+    },
+    {
+      "dataset_id": 37,
+      "name": "diabetes",
+      "true_margin": -0.009962962962962951,
+      "pred_margin": -0.044349483166479006,
+      "p_nn_wins": 0.8667515905389489
+    },
+    {
+      "dataset_id": 38,
+      "name": "sick",
+      "true_margin": -0.008321377331420465,
+      "pred_margin": 0.005052783307882792,
+      "p_nn_wins": 0.005758042764267517
+    },
+    {
+      "dataset_id": 40499,
+      "name": "texture",
+      "true_margin": 0.00011091466196544442,
+      "pred_margin": 0.0008607802185393173,
+      "p_nn_wins": 0.5728941693982335
+    },
+    {
+      "dataset_id": 40668,
+      "name": "connect-4",
+      "true_margin": 0.0044546728000047775,
+      "pred_margin": -0.03342315716885213,
+      "p_nn_wins": 0.32334805274828676
+    },
+    {
+      "dataset_id": 40670,
+      "name": "dna",
+      "true_margin": -0.003801826964945687,
+      "pred_margin": -0.003107400309197402,
+      "p_nn_wins": 0.015006032044874986
+    },
+    {
+      "dataset_id": 40701,
+      "name": "churn",
+      "true_margin": -0.02291276798319064,
+      "pred_margin": -0.019224592682783547,
+      "p_nn_wins": 0.0016961689013098562
+    },
+    {
+      "dataset_id": 40966,
+      "name": "MiceProtein",
+      "true_margin": 0.0012149600366445634,
+      "pred_margin": 0.005890976023183278,
+      "p_nn_wins": 0.9729806994642957
+    },
+    {
+      "dataset_id": 40975,
+      "name": "car",
+      "true_margin": -0.0002030665211354421,
+      "pred_margin": -0.000271654221727082,
+      "p_nn_wins": 0.012422958900217034
+    },
+    {
+      "dataset_id": 40979,
+      "name": "mfeat-pixel",
+      "true_margin": 0.0004502059376709777,
+      "pred_margin": -0.006878945249987969,
+      "p_nn_wins": 0.8144180631680925
+    },
+    {
+      "dataset_id": 40982,
+      "name": "steel-plates-fault",
+      "true_margin": -0.008230896640574081,
+      "pred_margin": -0.003935633635242925,
+      "p_nn_wins": 0.06567998494455925
+    },
+    {
+      "dataset_id": 40983,
+      "name": "wilt",
+      "true_margin": 0.0011217948717946458,
+      "pred_margin": 0.0005370907617081761,
+      "p_nn_wins": 0.7375085566737156
+    },
+    {
+      "dataset_id": 40984,
+      "name": "segment",
+      "true_margin": -0.007365417413606301,
+      "pred_margin": 0.002555950362855079,
+      "p_nn_wins": 0.6790243771288833
+    },
+    {
+      "dataset_id": 40994,
+      "name": "climate-model-simulation-crashes",
+      "true_margin": -0.02581369248035925,
+      "pred_margin": -0.013931928170658605,
+      "p_nn_wins": 0.3577170313243279
+    },
+    {
+      "dataset_id": 41027,
+      "name": "jungle_chess_2pcs_raw_endgame_complete",
+      "true_margin": 0.010653704532758379,
+      "pred_margin": -0.09913999693437932,
+      "p_nn_wins": 0.012967861146524052
+    },
+    {
+      "dataset_id": 44,
+      "name": "spambase",
+      "true_margin": -0.009590862036514158,
+      "pred_margin": -0.003991502099549423,
+      "p_nn_wins": 0.045689928154184725
+    },
+    {
+      "dataset_id": 4534,
+      "name": "PhishingWebsites",
+      "true_margin": -0.0017565464629208938,
+      "pred_margin": -0.002397370983269295,
+      "p_nn_wins": 0.032298458509411467
+    },
+    {
+      "dataset_id": 4538,
+      "name": "GesturePhaseSegmentationProcessed",
+      "true_margin": -0.07322447217367789,
+      "pred_margin": -0.022281629024651643,
+      "p_nn_wins": 0.10354376853359967
+    },
+    {
+      "dataset_id": 458,
+      "name": "analcatdata_authorship",
+      "true_margin": 0.0,
+      "pred_margin": -0.001658486316209388,
+      "p_nn_wins": 0.999118654124146
+    },
+    {
+      "dataset_id": 46,
+      "name": "splice",
+      "true_margin": -0.003498254793696476,
+      "pred_margin": 0.002092878351846947,
+      "p_nn_wins": 0.011835966532058005
+    },
+    {
+      "dataset_id": 469,
+      "name": "analcatdata_dmft",
+      "true_margin": -0.05006236593473945,
+      "pred_margin": -0.14242437438588157,
+      "p_nn_wins": 0.036137756971684316
+    },
+    {
+      "dataset_id": 50,
+      "name": "tic-tac-toe",
+      "true_margin": -0.0009139009139008669,
+      "pred_margin": -0.004161508973266897,
+      "p_nn_wins": 0.005227080249641088
+    },
+    {
+      "dataset_id": 54,
+      "name": "vehicle",
+      "true_margin": 0.015125436195748576,
+      "pred_margin": 0.002155517513636732,
+      "p_nn_wins": 0.4466325877752289
+    },
+    {
+      "dataset_id": 6,
+      "name": "letter",
+      "true_margin": 0.00025682426188766705,
+      "pred_margin": -0.001959690435056322,
+      "p_nn_wins": 0.1279004856173083
+    },
+    {
+      "dataset_id": 6332,
+      "name": "cylinder-bands",
+      "true_margin": -0.11477954144620794,
+      "pred_margin": -0.017035946118272822,
+      "p_nn_wins": 0.035399161301221525
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "T_mi_max",
+      "mean": 0.1022950819672131,
+      "std": 0.015572907655131711
+    },
+    {
+      "feature": "T_linear_auc",
+      "mean": 0.06622950819672133,
+      "std": 0.017023940964914292
+    },
+    {
+      "feature": "A_stump_auc_mean",
+      "mean": 0.033442622950819706,
+      "std": 0.007301986049613152
+    },
+    {
+      "feature": "E_eff_rank_frac",
+      "mean": 0.016393442622950838,
+      "std": 0.0046367657782724475
+    },
+    {
+      "feature": "E_top5_share",
+      "mean": 0.003934426229508201,
+      "std": 0.007001362788217261
+    },
+    {
+      "feature": "S_n_classes",
+      "mean": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "S_n_over_p",
+      "mean": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "S_log_n",
+      "mean": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "S_frac_missing",
+      "mean": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "S_frac_categorical",
+      "mean": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "S_class_entropy_norm",
+      "mean": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "E_top1_share",
+      "mean": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "T_knn_disagreement",
+      "mean": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "E_mean_abs_corr",
+      "mean": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "T_mi_mean",
+      "mean": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "S_log_p",
+      "mean": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "T_mi_gini",
+      "mean": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "Z_grad_norm_init",
+      "mean": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "Z_one_epoch_gain",
+      "mean": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "Z_grad_cosine",
+      "mean": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "A_stump_auc_max",
+      "mean": 0.0,
+      "std": 0.0
+    },
+    {
+      "feature": "A_rot_gap",
+      "mean": 0.0,
+      "std": 0.0
+    }
+  ]
+}

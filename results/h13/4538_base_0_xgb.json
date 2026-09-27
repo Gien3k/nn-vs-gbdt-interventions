@@ -1,0 +1,27 @@
+{
+  "best_cfg": {
+    "n_estimators": 1000,
+    "learning_rate": 0.016471343135881205,
+    "max_depth": 10,
+    "subsample": 0.6765262822645632,
+    "colsample_bytree": 0.7987465737331754,
+    "min_child_weight": 2.562872003756066,
+    "reg_lambda": 0.013219609723849345
+  },
+  "val_auc": 0.8969791305615924,
+  "test_aucs": [
+    0.8987952082298601,
+    0.8984781690096979,
+    0.8984430698220457,
+    0.8986961170341028,
+    0.898721990118778
+  ],
+  "n_trials_ok": 30,
+  "reused": true,
+  "dataset_id": 4538,
+  "kind": "base",
+  "dose": 0,
+  "family": "xgb",
+  "test_auc": 0.8986269108428969,
+  "seconds": 0.0
+}

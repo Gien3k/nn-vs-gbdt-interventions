@@ -1,0 +1,27 @@
+{
+  "best_cfg": {
+    "n_estimators": 200,
+    "learning_rate": 0.12072412726944334,
+    "num_leaves": 127,
+    "subsample": 0.9455030683098338,
+    "colsample_bytree": 0.869952525339878,
+    "min_child_samples": 57,
+    "reg_lambda": 8.770630063110957
+  },
+  "val_auc": 1.0,
+  "test_aucs": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "n_trials_ok": 30,
+  "reused": false,
+  "dataset_id": 458,
+  "kind": "noise_features",
+  "dose": 1.0,
+  "family": "lgbm",
+  "test_auc": 1.0,
+  "seconds": 29.0
+}

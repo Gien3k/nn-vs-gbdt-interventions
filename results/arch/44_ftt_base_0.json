@@ -1,0 +1,27 @@
+{
+  "dataset_id": 44,
+  "arch": "ftt",
+  "kind": "base",
+  "dose": 0,
+  "best_cfg": {
+    "d_token": 128,
+    "n_blocks": 2,
+    "attn_dropout": 0.2,
+    "ffn_dropout": 0.25,
+    "residual_dropout": 0.1,
+    "lr": 0.00040145470066870495,
+    "weight_decay": 4.658659556177238e-06
+  },
+  "val_auc": 0.983689770374553,
+  "n_trials_ok": 30,
+  "test_aucs": [
+    0.9788314041031433,
+    0.9813194052324488,
+    0.9819193487671749
+  ],
+  "arch_auc": 0.9806900527009222,
+  "gbdt_auc": 0.988091709015622,
+  "margin": -0.0074016563146998005,
+  "mlp_auc": 0.9785008469791079,
+  "seconds": 124.4
+}

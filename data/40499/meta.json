@@ -1,0 +1,15 @@
+{
+  "dataset_id": 40499,
+  "name": "texture",
+  "n_rows": 5473,
+  "n_features": 40,
+  "n_classes": 11,
+  "categorical_cols": [],
+  "duplicates_removed": 27,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 3283,
+    "val": 1095,
+    "test": 1095
+  }
+}

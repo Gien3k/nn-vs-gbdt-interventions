@@ -1,0 +1,22 @@
+{
+  "dataset_id": 40975,
+  "name": "car",
+  "n_rows": 1728,
+  "n_features": 6,
+  "n_classes": 4,
+  "categorical_cols": [
+    "buying",
+    "maint",
+    "doors",
+    "persons",
+    "lug_boot",
+    "safety"
+  ],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 1036,
+    "val": 346,
+    "test": 346
+  }
+}

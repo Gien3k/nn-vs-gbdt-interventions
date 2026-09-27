@@ -1,0 +1,15 @@
+{
+  "dataset_id": 40982,
+  "name": "steel-plates-fault",
+  "n_rows": 1941,
+  "n_features": 27,
+  "n_classes": 7,
+  "categorical_cols": [],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 1164,
+    "val": 388,
+    "test": 389
+  }
+}

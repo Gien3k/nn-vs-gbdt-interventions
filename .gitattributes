@@ -1,0 +1,4 @@
+# Keep source files byte-identical: results/h13_prereg.json stores their
+# SHA-256 hashes, and h13_retuned.py refuses to run if they differ.
+src/*.py -text
+results/*.json -text

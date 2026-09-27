@@ -1,0 +1,25 @@
+{
+  "dataset_id": 50,
+  "name": "tic-tac-toe",
+  "n_rows": 958,
+  "n_features": 9,
+  "n_classes": 2,
+  "categorical_cols": [
+    "top-left-square",
+    "top-middle-square",
+    "top-right-square",
+    "middle-left-square",
+    "middle-middle-square",
+    "middle-right-square",
+    "bottom-left-square",
+    "bottom-middle-square",
+    "bottom-right-square"
+  ],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 574,
+    "val": 192,
+    "test": 192
+  }
+}

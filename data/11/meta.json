@@ -1,0 +1,15 @@
+{
+  "dataset_id": 11,
+  "name": "balance-scale",
+  "n_rows": 625,
+  "n_features": 4,
+  "n_classes": 3,
+  "categorical_cols": [],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 375,
+    "val": 125,
+    "test": 125
+  }
+}

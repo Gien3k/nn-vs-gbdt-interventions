@@ -1,0 +1,27 @@
+{
+  "dataset_id": 23381,
+  "name": "dresses-sales",
+  "n_rows": 500,
+  "n_features": 12,
+  "n_classes": 2,
+  "categorical_cols": [
+    "V2",
+    "V3",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V13"
+  ],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 300,
+    "val": 100,
+    "test": 100
+  }
+}

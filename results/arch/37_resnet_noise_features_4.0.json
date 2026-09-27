@@ -1,0 +1,18 @@
+{
+  "dataset_id": 37,
+  "arch": "resnet",
+  "kind": "noise_features",
+  "dose": 4.0,
+  "test_aucs": [
+    0.6903703703703704,
+    0.7398148148148148,
+    0.6998148148148149
+  ],
+  "arch_auc": 0.71,
+  "gbdt_auc": 0.7630864197530864,
+  "margin": -0.05308641975308648,
+  "baseline_margin": -0.01486419753086421,
+  "baseline_arch_auc": 0.7758024691358024,
+  "baseline_gbdt_auc": 0.7906666666666666,
+  "mlp_auc": 0.6875925925925926
+}

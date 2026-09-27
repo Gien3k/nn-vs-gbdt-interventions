@@ -1,0 +1,15 @@
+{
+  "dataset_id": 1464,
+  "name": "blood-transfusion-service-center",
+  "n_rows": 533,
+  "n_features": 4,
+  "n_classes": 2,
+  "categorical_cols": [],
+  "duplicates_removed": 215,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 319,
+    "val": 107,
+    "test": 107
+  }
+}

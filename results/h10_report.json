@@ -1,0 +1,131 @@
+{
+  "n_datasets": 24,
+  "mean_delta_realistic": -0.07183695022296471,
+  "n_direction_ok": 22,
+  "wilcoxon_p_onesided": 5.960464477539062e-07,
+  "mean_delta_gaussian_same_ds": -0.06849094323223064,
+  "paired_realistic_minus_gaussian_mean": -0.0033460069907340767,
+  "paired_wilcoxon_p_twosided": 0.40611207485198975,
+  "per_dataset": [
+    {
+      "dataset_id": 11,
+      "delta_realistic": -0.007004459822571474,
+      "delta_gaussian": -0.0014279490621944557
+    },
+    {
+      "dataset_id": 22,
+      "delta_realistic": -0.044506464485341124,
+      "delta_gaussian": -0.05511815359749439
+    },
+    {
+      "dataset_id": 37,
+      "delta_realistic": -0.08516049382716062,
+      "delta_gaussian": -0.06553086419753085
+    },
+    {
+      "dataset_id": 44,
+      "delta_realistic": -0.032148346822259755,
+      "delta_gaussian": -0.04175332517723829
+    },
+    {
+      "dataset_id": 54,
+      "delta_realistic": -0.16442557615995101,
+      "delta_gaussian": -0.1503875323172198
+    },
+    {
+      "dataset_id": 188,
+      "delta_realistic": -0.07377531242896218,
+      "delta_gaussian": -0.054037700645708564
+    },
+    {
+      "dataset_id": 307,
+      "delta_realistic": -0.12439768050879163,
+      "delta_gaussian": -0.1154283576505798
+    },
+    {
+      "dataset_id": 1049,
+      "delta_realistic": -0.0863853123509779,
+      "delta_gaussian": -0.11018915911619798
+    },
+    {
+      "dataset_id": 1050,
+      "delta_realistic": -0.13737918915526537,
+      "delta_gaussian": -0.07696330697460385
+    },
+    {
+      "dataset_id": 1053,
+      "delta_realistic": -0.0408740751948683,
+      "delta_gaussian": -0.044140389051604334
+    },
+    {
+      "dataset_id": 1067,
+      "delta_realistic": -0.04885361552028211,
+      "delta_gaussian": -0.014226925338036267
+    },
+    {
+      "dataset_id": 1068,
+      "delta_realistic": -0.06545601291364012,
+      "delta_gaussian": -0.06680118375033617
+    },
+    {
+      "dataset_id": 1464,
+      "delta_realistic": 0.018571428571428572,
+      "delta_gaussian": -0.04896103896103898
+    },
+    {
+      "dataset_id": 1475,
+      "delta_realistic": -0.10654918257250778,
+      "delta_gaussian": -0.1046898702049498
+    },
+    {
+      "dataset_id": 1480,
+      "delta_realistic": 0.007307644344681452,
+      "delta_gaussian": -0.06414764933283434
+    },
+    {
+      "dataset_id": 1487,
+      "delta_realistic": -0.1256241209563993,
+      "delta_gaussian": -0.09975826300984503
+    },
+    {
+      "dataset_id": 1489,
+      "delta_realistic": -0.08569741913720541,
+      "delta_gaussian": -0.0800471158153192
+    },
+    {
+      "dataset_id": 1494,
+      "delta_realistic": -0.04159624413145535,
+      "delta_gaussian": -0.029758551307847103
+    },
+    {
+      "dataset_id": 1497,
+      "delta_realistic": -0.0842853003246089,
+      "delta_gaussian": -0.0886102500210828
+    },
+    {
+      "dataset_id": 4538,
+      "delta_realistic": -0.02938922976736935,
+      "delta_gaussian": -0.02816852350953014
+    },
+    {
+      "dataset_id": 40701,
+      "delta_realistic": -0.11812928855182359,
+      "delta_gaussian": -0.12861606312310536
+    },
+    {
+      "dataset_id": 40982,
+      "delta_realistic": -0.04224905987535965,
+      "delta_gaussian": -0.04716211248941227
+    },
+    {
+      "dataset_id": 40984,
+      "delta_realistic": -0.041096328777297075,
+      "delta_gaussian": -0.03994215389251521
+    },
+    {
+      "dataset_id": 40994,
+      "delta_realistic": -0.164983164983165,
+      "delta_gaussian": -0.08791619902731018
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "dataset_id": 6,
+  "name": "letter",
+  "n_rows": 18668,
+  "n_features": 16,
+  "n_classes": 26,
+  "categorical_cols": [],
+  "duplicates_removed": 1332,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 11200,
+    "val": 3734,
+    "test": 3734
+  }
+}

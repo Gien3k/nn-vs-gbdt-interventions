@@ -1,0 +1,15 @@
+{
+  "dataset_id": 40979,
+  "name": "mfeat-pixel",
+  "n_rows": 1994,
+  "n_features": 240,
+  "n_classes": 10,
+  "categorical_cols": [],
+  "duplicates_removed": 6,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 1196,
+    "val": 399,
+    "test": 399
+  }
+}

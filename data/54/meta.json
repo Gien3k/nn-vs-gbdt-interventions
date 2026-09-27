@@ -1,0 +1,15 @@
+{
+  "dataset_id": 54,
+  "name": "vehicle",
+  "n_rows": 846,
+  "n_features": 18,
+  "n_classes": 4,
+  "categorical_cols": [],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 507,
+    "val": 169,
+    "test": 170
+  }
+}

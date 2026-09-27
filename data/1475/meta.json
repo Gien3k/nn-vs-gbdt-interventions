@@ -1,0 +1,15 @@
+{
+  "dataset_id": 1475,
+  "name": "first-order-theorem-proving",
+  "n_rows": 5636,
+  "n_features": 51,
+  "n_classes": 6,
+  "categorical_cols": [],
+  "duplicates_removed": 482,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 3381,
+    "val": 1127,
+    "test": 1128
+  }
+}

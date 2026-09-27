@@ -1,0 +1,23 @@
+{
+  "dataset_id": 23,
+  "name": "cmc",
+  "n_rows": 1425,
+  "n_features": 9,
+  "n_classes": 3,
+  "categorical_cols": [
+    "Wifes_education",
+    "Husbands_education",
+    "Wifes_religion",
+    "Wifes_now_working%3F",
+    "Husbands_occupation",
+    "Standard-of-living_index",
+    "Media_exposure"
+  ],
+  "duplicates_removed": 48,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 855,
+    "val": 285,
+    "test": 285
+  }
+}

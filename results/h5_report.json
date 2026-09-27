@@ -1,0 +1,1038 @@
+{
+  "n_cells": 144,
+  "per_kind": {
+    "rotate": {
+      "n": 48,
+      "spearman_rho": 0.2525895771525079,
+      "perm_p": 0.046476761619190406,
+      "sign_agreement": "24/48"
+    },
+    "quantize": {
+      "n": 48,
+      "spearman_rho": 0.22111208167094726,
+      "perm_p": 0.06696651674162919,
+      "sign_agreement": "31/48"
+    },
+    "noise_features": {
+      "n": 48,
+      "spearman_rho": 0.43964394268345636,
+      "perm_p": 0.0034982508745627187,
+      "sign_agreement": "38/48"
+    }
+  },
+  "rows": [
+    {
+      "dataset_id": 11,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "delta_obs": 0.046068630138719535,
+      "delta_pred": -0.00016160063917062054
+    },
+    {
+      "dataset_id": 11,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "delta_obs": 0.003955580312006157,
+      "delta_pred": -0.006405740177643535
+    },
+    {
+      "dataset_id": 11,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "delta_obs": -0.020532818506723838,
+      "delta_pred": 0.0015640577703660286
+    },
+    {
+      "dataset_id": 11,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "delta_obs": -0.0014279490621944557,
+      "delta_pred": -0.0054919678419438865
+    },
+    {
+      "dataset_id": 11,
+      "kind": "quantize",
+      "dose": 2,
+      "delta_obs": -0.07118494527207686,
+      "delta_pred": -0.018600535082780107
+    },
+    {
+      "dataset_id": 11,
+      "kind": "quantize",
+      "dose": 4,
+      "delta_obs": 0.01592122975422683,
+      "delta_pred": -0.013674991401687427
+    },
+    {
+      "dataset_id": 11,
+      "kind": "quantize",
+      "dose": 8,
+      "delta_obs": 0.01592122975422683,
+      "delta_pred": -0.013674991401687427
+    },
+    {
+      "dataset_id": 11,
+      "kind": "quantize",
+      "dose": 32,
+      "delta_obs": 0.01592122975422683,
+      "delta_pred": -0.013674991401687427
+    },
+    {
+      "dataset_id": 11,
+      "kind": "rotate",
+      "dose": 0.25,
+      "delta_obs": 0.03541903061787466,
+      "delta_pred": -0.0003903783687222405
+    },
+    {
+      "dataset_id": 11,
+      "kind": "rotate",
+      "dose": 0.5,
+      "delta_obs": 0.02948434119995702,
+      "delta_pred": 0.011700040893636764
+    },
+    {
+      "dataset_id": 11,
+      "kind": "rotate",
+      "dose": 1.0,
+      "delta_obs": 0.04881947157489375,
+      "delta_pred": 0.0012571074126794882
+    },
+    {
+      "dataset_id": 11,
+      "kind": "rotate",
+      "dose": 2.0,
+      "delta_obs": 0.05924618221671807,
+      "delta_pred": -0.003157011388564942
+    },
+    {
+      "dataset_id": 22,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "delta_obs": -0.006519230769230888,
+      "delta_pred": -0.003955806372490619
+    },
+    {
+      "dataset_id": 22,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "delta_obs": -0.013965220076872953,
+      "delta_pred": -0.0030846032128043765
+    },
+    {
+      "dataset_id": 22,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "delta_obs": -0.019796232147439086,
+      "delta_pred": -0.00805634043627835
+    },
+    {
+      "dataset_id": 22,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "delta_obs": -0.05511815359749439,
+      "delta_pred": -0.04078097622808146
+    },
+    {
+      "dataset_id": 22,
+      "kind": "quantize",
+      "dose": 2,
+      "delta_obs": -0.016949114084443773,
+      "delta_pred": -0.010919114343553506
+    },
+    {
+      "dataset_id": 22,
+      "kind": "quantize",
+      "dose": 4,
+      "delta_obs": -0.007971064897480784,
+      "delta_pred": 0.0002850580854129734
+    },
+    {
+      "dataset_id": 22,
+      "kind": "quantize",
+      "dose": 8,
+      "delta_obs": -0.005392935557512968,
+      "delta_pred": 0.0002850580854129734
+    },
+    {
+      "dataset_id": 22,
+      "kind": "quantize",
+      "dose": 32,
+      "delta_obs": -0.0008769486042001784,
+      "delta_pred": 0.0011557228758049972
+    },
+    {
+      "dataset_id": 22,
+      "kind": "rotate",
+      "dose": 0.25,
+      "delta_obs": 9.163300504988481e-05,
+      "delta_pred": 0.00018326504813149125
+    },
+    {
+      "dataset_id": 22,
+      "kind": "rotate",
+      "dose": 0.5,
+      "delta_obs": -0.0009927935041678104,
+      "delta_pred": 0.0014407809612179707
+    },
+    {
+      "dataset_id": 22,
+      "kind": "rotate",
+      "dose": 1.0,
+      "delta_obs": 0.0010756698595603131,
+      "delta_pred": 0.0014407809612179707
+    },
+    {
+      "dataset_id": 22,
+      "kind": "rotate",
+      "dose": 2.0,
+      "delta_obs": -0.0015630768437174813,
+      "delta_pred": 0.0002850580854129734
+    },
+    {
+      "dataset_id": 54,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "delta_obs": -0.024933605457042596,
+      "delta_pred": -0.0034701404430221554
+    },
+    {
+      "dataset_id": 54,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "delta_obs": -0.06837218077061813,
+      "delta_pred": -0.010548524548684192
+    },
+    {
+      "dataset_id": 54,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "delta_obs": -0.0811588139869387,
+      "delta_pred": -0.06192291647783021
+    },
+    {
+      "dataset_id": 54,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "delta_obs": -0.1503875323172198,
+      "delta_pred": -0.08492386457213764
+    },
+    {
+      "dataset_id": 54,
+      "kind": "quantize",
+      "dose": 2,
+      "delta_obs": -0.02325367803492795,
+      "delta_pred": -0.01283962503308712
+    },
+    {
+      "dataset_id": 54,
+      "kind": "quantize",
+      "dose": 4,
+      "delta_obs": -0.02339843345312076,
+      "delta_pred": -0.009380011725209705
+    },
+    {
+      "dataset_id": 54,
+      "kind": "quantize",
+      "dose": 8,
+      "delta_obs": -0.02324621443371433,
+      "delta_pred": 0.002250057954324529
+    },
+    {
+      "dataset_id": 54,
+      "kind": "quantize",
+      "dose": 32,
+      "delta_obs": -0.007841159419284538,
+      "delta_pred": -0.0019253507088264393
+    },
+    {
+      "dataset_id": 54,
+      "kind": "rotate",
+      "dose": 0.25,
+      "delta_obs": -0.002947524408462021,
+      "delta_pred": 0.004126894467396868
+    },
+    {
+      "dataset_id": 54,
+      "kind": "rotate",
+      "dose": 0.5,
+      "delta_obs": 0.008654301138676268,
+      "delta_pred": 0.00895707126030526
+    },
+    {
+      "dataset_id": 54,
+      "kind": "rotate",
+      "dose": 1.0,
+      "delta_obs": 0.018974014700577135,
+      "delta_pred": 0.00594326987579841
+    },
+    {
+      "dataset_id": 54,
+      "kind": "rotate",
+      "dose": 2.0,
+      "delta_obs": 0.017711535859973426,
+      "delta_pred": 0.004815237374261814
+    },
+    {
+      "dataset_id": 188,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "delta_obs": -0.013852481089714375,
+      "delta_pred": -0.011029101938441394
+    },
+    {
+      "dataset_id": 188,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "delta_obs": -0.007416960704465403,
+      "delta_pred": -0.013480912811322902
+    },
+    {
+      "dataset_id": 188,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "delta_obs": -0.03873755258221978,
+      "delta_pred": -0.014429458381993068
+    },
+    {
+      "dataset_id": 188,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "delta_obs": -0.054037700645708564,
+      "delta_pred": -0.01665637588777045
+    },
+    {
+      "dataset_id": 188,
+      "kind": "quantize",
+      "dose": 2,
+      "delta_obs": -0.013464538047169183,
+      "delta_pred": -0.009906563757243969
+    },
+    {
+      "dataset_id": 188,
+      "kind": "quantize",
+      "dose": 4,
+      "delta_obs": -0.016767920451249863,
+      "delta_pred": -0.011605596660741194
+    },
+    {
+      "dataset_id": 188,
+      "kind": "quantize",
+      "dose": 8,
+      "delta_obs": -0.008143377293457266,
+      "delta_pred": -0.01125475230782591
+    },
+    {
+      "dataset_id": 188,
+      "kind": "quantize",
+      "dose": 32,
+      "delta_obs": 0.0006995700776599723,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 188,
+      "kind": "rotate",
+      "dose": 0.25,
+      "delta_obs": 0.001251475388012846,
+      "delta_pred": -0.006501226296117046
+    },
+    {
+      "dataset_id": 188,
+      "kind": "rotate",
+      "dose": 0.5,
+      "delta_obs": 0.007092969739303623,
+      "delta_pred": -0.006501226296117046
+    },
+    {
+      "dataset_id": 188,
+      "kind": "rotate",
+      "dose": 1.0,
+      "delta_obs": -0.0013593409122322209,
+      "delta_pred": -0.006700299237451593
+    },
+    {
+      "dataset_id": 188,
+      "kind": "rotate",
+      "dose": 2.0,
+      "delta_obs": -0.006018832008948705,
+      "delta_pred": -0.007051143590366876
+    },
+    {
+      "dataset_id": 1049,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "delta_obs": -0.036750914004132995,
+      "delta_pred": 0.0004884864457780007
+    },
+    {
+      "dataset_id": 1049,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "delta_obs": -0.08300747099030392,
+      "delta_pred": -0.011688502642869279
+    },
+    {
+      "dataset_id": 1049,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "delta_obs": -0.08427912891432232,
+      "delta_pred": -0.018799451508260116
+    },
+    {
+      "dataset_id": 1049,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "delta_obs": -0.11018915911619798,
+      "delta_pred": -0.028985372786339884
+    },
+    {
+      "dataset_id": 1049,
+      "kind": "quantize",
+      "dose": 2,
+      "delta_obs": -0.04243363535209066,
+      "delta_pred": -0.010325938573219142
+    },
+    {
+      "dataset_id": 1049,
+      "kind": "quantize",
+      "dose": 4,
+      "delta_obs": -0.011039580352885325,
+      "delta_pred": -0.008899058148725268
+    },
+    {
+      "dataset_id": 1049,
+      "kind": "quantize",
+      "dose": 8,
+      "delta_obs": -0.039373708472421276,
+      "delta_pred": -0.008333442716875967
+    },
+    {
+      "dataset_id": 1049,
+      "kind": "quantize",
+      "dose": 32,
+      "delta_obs": -0.0026943252265143602,
+      "delta_pred": -0.008913469240084959
+    },
+    {
+      "dataset_id": 1049,
+      "kind": "rotate",
+      "dose": 0.25,
+      "delta_obs": -0.0015418852328724642,
+      "delta_pred": 0.0038435463717713158
+    },
+    {
+      "dataset_id": 1049,
+      "kind": "rotate",
+      "dose": 0.5,
+      "delta_obs": 0.02627563185503068,
+      "delta_pred": 0.001800552883241349
+    },
+    {
+      "dataset_id": 1049,
+      "kind": "rotate",
+      "dose": 1.0,
+      "delta_obs": 0.013201398823716293,
+      "delta_pred": 0.003396959191103275
+    },
+    {
+      "dataset_id": 1049,
+      "kind": "rotate",
+      "dose": 2.0,
+      "delta_obs": 0.021546653950087258,
+      "delta_pred": 0.003396959191103275
+    },
+    {
+      "dataset_id": 1068,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "delta_obs": 0.04484799569545339,
+      "delta_pred": -0.014248970070713013
+    },
+    {
+      "dataset_id": 1068,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "delta_obs": -0.00801721818670953,
+      "delta_pred": -0.018423314182139158
+    },
+    {
+      "dataset_id": 1068,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "delta_obs": -0.13553941350551513,
+      "delta_pred": -0.031963890026610466
+    },
+    {
+      "dataset_id": 1068,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "delta_obs": -0.06680118375033617,
+      "delta_pred": -0.03510438471641435
+    },
+    {
+      "dataset_id": 1068,
+      "kind": "quantize",
+      "dose": 2,
+      "delta_obs": -0.0026365348399246535,
+      "delta_pred": -0.007763858261358924
+    },
+    {
+      "dataset_id": 1068,
+      "kind": "quantize",
+      "dose": 4,
+      "delta_obs": -0.05079365079365061,
+      "delta_pred": -0.007763858261358924
+    },
+    {
+      "dataset_id": 1068,
+      "kind": "quantize",
+      "dose": 8,
+      "delta_obs": -0.015281140704869411,
+      "delta_pred": -0.0017799221577779593
+    },
+    {
+      "dataset_id": 1068,
+      "kind": "quantize",
+      "dose": 32,
+      "delta_obs": -0.03680387409200958,
+      "delta_pred": -0.007763858261358924
+    },
+    {
+      "dataset_id": 1068,
+      "kind": "rotate",
+      "dose": 0.25,
+      "delta_obs": -0.028194780737153535,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 1068,
+      "kind": "rotate",
+      "dose": 0.5,
+      "delta_obs": -0.016760828625235202,
+      "delta_pred": -0.0028457586918497865
+    },
+    {
+      "dataset_id": 1068,
+      "kind": "rotate",
+      "dose": 1.0,
+      "delta_obs": -0.03465160075329554,
+      "delta_pred": -0.000816605975516162
+    },
+    {
+      "dataset_id": 1068,
+      "kind": "rotate",
+      "dose": 2.0,
+      "delta_obs": -0.020796341135323915,
+      "delta_pred": -0.0024468481235326426
+    },
+    {
+      "dataset_id": 1464,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "delta_obs": 0.020952380952380945,
+      "delta_pred": -0.008437444438084009
+    },
+    {
+      "dataset_id": 1464,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "delta_obs": 0.08725829725829715,
+      "delta_pred": -0.024232613137569074
+    },
+    {
+      "dataset_id": 1464,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "delta_obs": -0.10033189033189038,
+      "delta_pred": -0.017594660702296268
+    },
+    {
+      "dataset_id": 1464,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "delta_obs": -0.04896103896103898,
+      "delta_pred": -0.003452937839742168
+    },
+    {
+      "dataset_id": 1464,
+      "kind": "quantize",
+      "dose": 2,
+      "delta_obs": 0.03646464646464631,
+      "delta_pred": 0.00015335693099809145
+    },
+    {
+      "dataset_id": 1464,
+      "kind": "quantize",
+      "dose": 4,
+      "delta_obs": 0.016334776334776424,
+      "delta_pred": 0.008181746984180387
+    },
+    {
+      "dataset_id": 1464,
+      "kind": "quantize",
+      "dose": 8,
+      "delta_obs": -0.083881673881674,
+      "delta_pred": 0.007744199943512456
+    },
+    {
+      "dataset_id": 1464,
+      "kind": "quantize",
+      "dose": 32,
+      "delta_obs": -0.01844155844155837,
+      "delta_pred": -0.000937433586654185
+    },
+    {
+      "dataset_id": 1464,
+      "kind": "rotate",
+      "dose": 0.25,
+      "delta_obs": -0.018946608946608934,
+      "delta_pred": 0.009280401787284467
+    },
+    {
+      "dataset_id": 1464,
+      "kind": "rotate",
+      "dose": 0.5,
+      "delta_obs": -0.001630591630591649,
+      "delta_pred": 0.0007706245144592783
+    },
+    {
+      "dataset_id": 1464,
+      "kind": "rotate",
+      "dose": 1.0,
+      "delta_obs": 0.006738816738816711,
+      "delta_pred": 0.005829655757304493
+    },
+    {
+      "dataset_id": 1464,
+      "kind": "rotate",
+      "dose": 2.0,
+      "delta_obs": 0.0013275613275613996,
+      "delta_pred": -0.0006760156949728799
+    },
+    {
+      "dataset_id": 1475,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "delta_obs": -0.04692811364313365,
+      "delta_pred": 0.0025522540170587367
+    },
+    {
+      "dataset_id": 1475,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "delta_obs": -0.07077717334264455,
+      "delta_pred": -0.0048333775137880605
+    },
+    {
+      "dataset_id": 1475,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "delta_obs": -0.0850300407536615,
+      "delta_pred": -0.009406938575059864
+    },
+    {
+      "dataset_id": 1475,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "delta_obs": -0.1046898702049498,
+      "delta_pred": -0.008936774795443657
+    },
+    {
+      "dataset_id": 1475,
+      "kind": "quantize",
+      "dose": 2,
+      "delta_obs": 0.014682847045894842,
+      "delta_pred": 0.012505359334486224
+    },
+    {
+      "dataset_id": 1475,
+      "kind": "quantize",
+      "dose": 4,
+      "delta_obs": 0.005781242524993457,
+      "delta_pred": 0.013982813278020933
+    },
+    {
+      "dataset_id": 1475,
+      "kind": "quantize",
+      "dose": 8,
+      "delta_obs": -0.004635004310386548,
+      "delta_pred": 0.007372563530950716
+    },
+    {
+      "dataset_id": 1475,
+      "kind": "quantize",
+      "dose": 32,
+      "delta_obs": -0.02339766599989046,
+      "delta_pred": 0.00827802353600771
+    },
+    {
+      "dataset_id": 1475,
+      "kind": "rotate",
+      "dose": 0.25,
+      "delta_obs": 0.0031150822899059794,
+      "delta_pred": 0.00827802353600771
+    },
+    {
+      "dataset_id": 1475,
+      "kind": "rotate",
+      "dose": 0.5,
+      "delta_obs": -0.005841863465869568,
+      "delta_pred": 0.009828537555782661
+    },
+    {
+      "dataset_id": 1475,
+      "kind": "rotate",
+      "dose": 1.0,
+      "delta_obs": 0.016746007113675243,
+      "delta_pred": 0.009828537555782661
+    },
+    {
+      "dataset_id": 1475,
+      "kind": "rotate",
+      "dose": 2.0,
+      "delta_obs": 0.015603939977080872,
+      "delta_pred": 0.01014428951967801
+    },
+    {
+      "dataset_id": 1480,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "delta_obs": 0.067913704950742,
+      "delta_pred": -0.0006958732663222399
+    },
+    {
+      "dataset_id": 1480,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "delta_obs": -0.006783888265369686,
+      "delta_pred": -0.0025582379841826725
+    },
+    {
+      "dataset_id": 1480,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "delta_obs": 0.01092405536849994,
+      "delta_pred": -0.003871660712775527
+    },
+    {
+      "dataset_id": 1480,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "delta_obs": -0.06414764933283434,
+      "delta_pred": -0.011365282907956598
+    },
+    {
+      "dataset_id": 1480,
+      "kind": "quantize",
+      "dose": 2,
+      "delta_obs": 0.10357899987529628,
+      "delta_pred": -0.0030853732288247133
+    },
+    {
+      "dataset_id": 1480,
+      "kind": "quantize",
+      "dose": 4,
+      "delta_obs": 0.07776530739493692,
+      "delta_pred": -0.002775173788553265
+    },
+    {
+      "dataset_id": 1480,
+      "kind": "quantize",
+      "dose": 8,
+      "delta_obs": 0.007931163486719073,
+      "delta_pred": -0.0026002755244973214
+    },
+    {
+      "dataset_id": 1480,
+      "kind": "quantize",
+      "dose": 32,
+      "delta_obs": 0.020526250155879833,
+      "delta_pred": 0.00022558250752567968
+    },
+    {
+      "dataset_id": 1480,
+      "kind": "rotate",
+      "dose": 0.25,
+      "delta_obs": 0.031001371742112482,
+      "delta_pred": 0.0015619622500414997
+    },
+    {
+      "dataset_id": 1480,
+      "kind": "rotate",
+      "dose": 0.5,
+      "delta_obs": 0.014166354907095835,
+      "delta_pred": 0.00133637974251582
+    },
+    {
+      "dataset_id": 1480,
+      "kind": "rotate",
+      "dose": 1.0,
+      "delta_obs": 0.005187679261753342,
+      "delta_pred": -8.764587107735686e-05
+    },
+    {
+      "dataset_id": 1480,
+      "kind": "rotate",
+      "dose": 2.0,
+      "delta_obs": 0.088115725152762,
+      "delta_pred": 0.002270650492835525
+    },
+    {
+      "dataset_id": 1487,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "delta_obs": -0.03653305203938084,
+      "delta_pred": -0.008562203668120053
+    },
+    {
+      "dataset_id": 1487,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "delta_obs": -0.08688027426160305,
+      "delta_pred": -0.005359651541620047
+    },
+    {
+      "dataset_id": 1487,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "delta_obs": -0.08909985935302367,
+      "delta_pred": -0.022505886807437585
+    },
+    {
+      "dataset_id": 1487,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "delta_obs": -0.09975826300984503,
+      "delta_pred": -0.10543270164643428
+    },
+    {
+      "dataset_id": 1487,
+      "kind": "quantize",
+      "dose": 2,
+      "delta_obs": -0.02185302390998578,
+      "delta_pred": -0.003759237075778247
+    },
+    {
+      "dataset_id": 1487,
+      "kind": "quantize",
+      "dose": 4,
+      "delta_obs": -0.03934599156118124,
+      "delta_pred": -0.008737513218823153
+    },
+    {
+      "dataset_id": 1487,
+      "kind": "quantize",
+      "dose": 8,
+      "delta_obs": -0.03343442334739799,
+      "delta_pred": 0.0023085578685133725
+    },
+    {
+      "dataset_id": 1487,
+      "kind": "quantize",
+      "dose": 32,
+      "delta_obs": 0.02420886075949391,
+      "delta_pred": 0.002483867419216473
+    },
+    {
+      "dataset_id": 1487,
+      "kind": "rotate",
+      "dose": 0.25,
+      "delta_obs": -0.01022767229254562,
+      "delta_pred": 0.00017530955070310314
+    },
+    {
+      "dataset_id": 1487,
+      "kind": "rotate",
+      "dose": 0.5,
+      "delta_obs": -0.014798699015470929,
+      "delta_pred": 0.00017530955070310314
+    },
+    {
+      "dataset_id": 1487,
+      "kind": "rotate",
+      "dose": 1.0,
+      "delta_obs": -0.03668688466947945,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 1487,
+      "kind": "rotate",
+      "dose": 2.0,
+      "delta_obs": -0.025193389592123694,
+      "delta_pred": 1.4983172027131786e-05
+    },
+    {
+      "dataset_id": 1494,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "delta_obs": -0.007391012743125369,
+      "delta_pred": -0.016582754900247795
+    },
+    {
+      "dataset_id": 1494,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "delta_obs": -0.015204560697518521,
+      "delta_pred": -0.023016765609818392
+    },
+    {
+      "dataset_id": 1494,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "delta_obs": -0.04588866532528513,
+      "delta_pred": -0.03983311377280881
+    },
+    {
+      "dataset_id": 1494,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "delta_obs": -0.029758551307847103,
+      "delta_pred": -0.0779652506490965
+    },
+    {
+      "dataset_id": 1494,
+      "kind": "quantize",
+      "dose": 2,
+      "delta_obs": -0.010576794097920894,
+      "delta_pred": -0.0054012658831770295
+    },
+    {
+      "dataset_id": 1494,
+      "kind": "quantize",
+      "dose": 4,
+      "delta_obs": -0.017149564050972455,
+      "delta_pred": -0.002805511992233044
+    },
+    {
+      "dataset_id": 1494,
+      "kind": "quantize",
+      "dose": 8,
+      "delta_obs": -0.00769282360831669,
+      "delta_pred": -0.002805511992233044
+    },
+    {
+      "dataset_id": 1494,
+      "kind": "quantize",
+      "dose": 32,
+      "delta_obs": 0.00196512407780014,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 1494,
+      "kind": "rotate",
+      "dose": 0.25,
+      "delta_obs": -0.020603621730382438,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 1494,
+      "kind": "rotate",
+      "dose": 0.5,
+      "delta_obs": -0.012152917505030114,
+      "delta_pred": -0.0006845812954670617
+    },
+    {
+      "dataset_id": 1494,
+      "kind": "rotate",
+      "dose": 1.0,
+      "delta_obs": -0.01034205231388341,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 1494,
+      "kind": "rotate",
+      "dose": 2.0,
+      "delta_obs": -0.012186452045606977,
+      "delta_pred": -0.00043131324669541606
+    },
+    {
+      "dataset_id": 4538,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "delta_obs": -0.019486280261751143,
+      "delta_pred": -0.0005155918567479878
+    },
+    {
+      "dataset_id": 4538,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "delta_obs": -0.023044253317903163,
+      "delta_pred": -0.004222863394583838
+    },
+    {
+      "dataset_id": 4538,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "delta_obs": -0.02403248651716461,
+      "delta_pred": -0.005159871155136827
+    },
+    {
+      "dataset_id": 4538,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "delta_obs": -0.02816852350953014,
+      "delta_pred": -0.005535188266474117
+    },
+    {
+      "dataset_id": 4538,
+      "kind": "quantize",
+      "dose": 2,
+      "delta_obs": 0.041803648981850294,
+      "delta_pred": -0.0025195429428176187
+    },
+    {
+      "dataset_id": 4538,
+      "kind": "quantize",
+      "dose": 4,
+      "delta_obs": -0.003375434874415495,
+      "delta_pred": -0.012917078156741545
+    },
+    {
+      "dataset_id": 4538,
+      "kind": "quantize",
+      "dose": 8,
+      "delta_obs": -0.020559790179777604,
+      "delta_pred": -0.008732140738937886
+    },
+    {
+      "dataset_id": 4538,
+      "kind": "quantize",
+      "dose": 32,
+      "delta_obs": -0.0244719607817816,
+      "delta_pred": -0.008732140738937886
+    },
+    {
+      "dataset_id": 4538,
+      "kind": "rotate",
+      "dose": 0.25,
+      "delta_obs": 0.016490045005219223,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 4538,
+      "kind": "rotate",
+      "dose": 0.5,
+      "delta_obs": 0.0240964885780115,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 4538,
+      "kind": "rotate",
+      "dose": 1.0,
+      "delta_obs": 0.03299720714440013,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 4538,
+      "kind": "rotate",
+      "dose": 2.0,
+      "delta_obs": 0.03013540494420741,
+      "delta_pred": -0.0008369679560268801
+    }
+  ],
+  "pooled": {
+    "spearman_rho": 0.47276754573598406,
+    "perm_p": 0.0004997501249375312,
+    "sign_agreement": "93/144"
+  }
+}

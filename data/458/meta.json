@@ -1,0 +1,15 @@
+{
+  "dataset_id": 458,
+  "name": "analcatdata_authorship",
+  "n_rows": 841,
+  "n_features": 70,
+  "n_classes": 4,
+  "categorical_cols": [],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 504,
+    "val": 168,
+    "test": 169
+  }
+}

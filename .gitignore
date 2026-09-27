@@ -1,0 +1,22 @@
+# environment and caches
+.venv/
+__pycache__/
+*.pyc
+.claude/
+
+# large or re-downloadable data (OpenML); split indices and metadata are kept
+data/**/X.parquet
+data/**/y.parquet
+checkpoints/
+logs/
+
+# local notes and old submission material
+discovery_state.json
+Nowy folder/
+
+# manuscript: kept private until publication (tables and figures are
+# regenerated into paper/ by src/paper_tables.py and src/make_figures.py)
+paper/
+
+# transient worker locks
+results/h13/*.lock

@@ -1,0 +1,417 @@
+{
+  "A_tie_sensitivity": {
+    "rules": [
+      {
+        "rule": "|d|<0.001",
+        "n_ties": 13,
+        "n_mlp_wins": 15,
+        "n_gbdt_wins": 33,
+        "winner_classification": {
+          "n_decided": 48,
+          "n_mlp_wins": 15,
+          "lodo_acc": 0.875,
+          "majority_baseline": 0.6875,
+          "perm_p": 0.004975124378109453
+        }
+      },
+      {
+        "rule": "|d|<0.0025",
+        "n_ties": 19,
+        "n_mlp_wins": 12,
+        "n_gbdt_wins": 30,
+        "winner_classification": {
+          "n_decided": 42,
+          "n_mlp_wins": 12,
+          "lodo_acc": 0.7619047619047619,
+          "majority_baseline": 0.7142857142857143,
+          "perm_p": 0.03482587064676617
+        }
+      },
+      {
+        "rule": "|d|<0.005",
+        "n_ties": 26,
+        "n_mlp_wins": 9,
+        "n_gbdt_wins": 26,
+        "winner_classification": {
+          "n_decided": 35,
+          "n_mlp_wins": 9,
+          "lodo_acc": 0.6857142857142857,
+          "majority_baseline": 0.7428571428571429,
+          "perm_p": 0.31840796019900497
+        }
+      },
+      {
+        "rule": "|d|<0.01",
+        "n_ties": 38,
+        "n_mlp_wins": 4,
+        "n_gbdt_wins": 19,
+        "winner_classification": {
+          "n_decided": 23,
+          "n_mlp_wins": 4,
+          "lodo_acc": 0.7391304347826086,
+          "majority_baseline": 0.8260869565217391,
+          "perm_p": 0.3781094527363184
+        }
+      },
+      {
+        "rule": "|d|<0.02",
+        "n_ties": 44,
+        "n_mlp_wins": 2,
+        "n_gbdt_wins": 15,
+        "winner_classification": {
+          "n_decided": 17,
+          "n_mlp_wins": 2,
+          "lodo_acc": 0.8823529411764706,
+          "majority_baseline": 0.8823529411764706,
+          "perm_p": 0.21393034825870647
+        }
+      },
+      {
+        "rule": "|d|<2SE(seed)",
+        "n_ties": 10,
+        "n_mlp_wins": 17,
+        "n_gbdt_wins": 33,
+        "winner_classification": {
+          "n_decided": 51,
+          "n_mlp_wins": 17,
+          "lodo_acc": 0.6470588235294118,
+          "majority_baseline": 0.6666666666666667,
+          "perm_p": 0.22388059701492538
+        }
+      },
+      {
+        "rule": "|d|<0.02*(1-AUC)",
+        "n_ties": 2,
+        "n_mlp_wins": 20,
+        "n_gbdt_wins": 39
+      },
+      {
+        "rule": "|d|<0.05*(1-AUC)",
+        "n_ties": 8,
+        "n_mlp_wins": 19,
+        "n_gbdt_wins": 34
+      },
+      {
+        "rule": "|d|<0.1*(1-AUC)",
+        "n_ties": 16,
+        "n_mlp_wins": 16,
+        "n_gbdt_wins": 29
+      }
+    ],
+    "seed_se_median": 0.0009130636676498153,
+    "seed_se_iqr": [
+      0.0002461401256935256,
+      0.0038178246015247077
+    ],
+    "ties_005_also_2se_tie": 5,
+    "ties_005_below_1pct_headroom": 21,
+    "other_metrics": {
+      "spearman_auc_vs_acc_margin": 0.831253305129561,
+      "spearman_auc_vs_logloss_margin": 0.7719196192490745,
+      "sign_agree_acc_on_auc_decided": "32/35",
+      "sign_agree_ll_on_auc_decided": "31/35",
+      "acc_gbdt_wins": 29,
+      "acc_mlp_wins": 15
+    }
+  },
+  "B_alignment_clustered": {
+    "pilot": {
+      "all": {
+        "n_cells": 144,
+        "n_datasets": 12,
+        "rho": 0.47276754573598406,
+        "free_perm_p (original, ignores clustering)": 0.0001999600079984003,
+        "cluster_bootstrap_ci95": [
+          0.3117254642108768,
+          0.6495754290919751
+        ],
+        "cluster_bootstrap_p_le0": 0.0,
+        "per_dataset_rho_mean": 0.5865235462382841,
+        "per_dataset_rho_n_pos": "11/12",
+        "per_dataset_wilcoxon_p": 0.00048828125,
+        "dataset_identity_perm_p": 0.054989002199560086,
+        "dataset_identity_null_mean": 0.3506093012998052
+      },
+      "without_noise": {
+        "n_cells": 96,
+        "n_datasets": 12,
+        "rho": 0.32659739647590724,
+        "free_perm_p (original, ignores clustering)": 0.0009998000399920016,
+        "cluster_bootstrap_ci95": [
+          0.13944782574547668,
+          0.541949505910234
+        ],
+        "cluster_bootstrap_p_le0": 0.0012,
+        "per_dataset_rho_mean": 0.45125402482893184,
+        "per_dataset_rho_n_pos": "10/12",
+        "per_dataset_wilcoxon_p": 0.003173828125,
+        "dataset_identity_perm_p": 0.05698860227954409,
+        "dataset_identity_null_mean": 0.10544484728220395
+      },
+      "noise_features": {
+        "n_cells": 48,
+        "n_datasets": 12,
+        "rho": 0.43964394268345636,
+        "free_perm_p (original, ignores clustering)": 0.0011997600479904018,
+        "cluster_bootstrap_ci95": [
+          0.17264069756959238,
+          0.6806014800204334
+        ],
+        "cluster_bootstrap_p_le0": 0.0014,
+        "per_dataset_rho_mean": 0.6499999999999999,
+        "per_dataset_rho_n_pos": "10/12",
+        "per_dataset_wilcoxon_p": 0.0009765625,
+        "dataset_identity_perm_p": 0.1305738852229554,
+        "dataset_identity_null_mean": 0.26988478072079897
+      },
+      "rotate": {
+        "n_cells": 48,
+        "n_datasets": 12,
+        "rho": 0.2525895771525079,
+        "free_perm_p (original, ignores clustering)": 0.04019196160767846,
+        "cluster_bootstrap_ci95": [
+          -0.14827419208885415,
+          0.565769671124421
+        ],
+        "cluster_bootstrap_p_le0": 0.103,
+        "per_dataset_rho_mean": 0.04267678580492807,
+        "per_dataset_rho_n_pos": "6/12",
+        "per_dataset_wilcoxon_p": 0.374267578125,
+        "dataset_identity_perm_p": 0.14437112577484504,
+        "dataset_identity_null_mean": -0.015882447692235138
+      },
+      "quantize": {
+        "n_cells": 48,
+        "n_datasets": 12,
+        "rho": 0.22111208167094726,
+        "free_perm_p (original, ignores clustering)": 0.0647870425914817,
+        "cluster_bootstrap_ci95": [
+          0.022714462933840794,
+          0.4628658676159567
+        ],
+        "cluster_bootstrap_p_le0": 0.0134,
+        "per_dataset_rho_mean": 0.4462971238206825,
+        "per_dataset_rho_n_pos": "10/12",
+        "per_dataset_wilcoxon_p": 0.01171875,
+        "dataset_identity_perm_p": 0.07898420315936813,
+        "dataset_identity_null_mean": -0.008603540602596653
+      }
+    },
+    "extension": {
+      "all": {
+        "n_cells": 144,
+        "n_datasets": 12,
+        "rho": 0.5060839477907277,
+        "free_perm_p (original, ignores clustering)": 0.0001999600079984003,
+        "cluster_bootstrap_ci95": [
+          0.37842747474058236,
+          0.6409016571293271
+        ],
+        "cluster_bootstrap_p_le0": 0.0,
+        "per_dataset_rho_mean": 0.6142282020840087,
+        "per_dataset_rho_n_pos": "12/12",
+        "per_dataset_wilcoxon_p": 0.000244140625,
+        "dataset_identity_perm_p": 0.1249750049990002,
+        "dataset_identity_null_mean": 0.44334637236132146
+      },
+      "without_noise": {
+        "n_cells": 96,
+        "n_datasets": 12,
+        "rho": 0.11176833786806108,
+        "free_perm_p (original, ignores clustering)": 0.1269746050789842,
+        "cluster_bootstrap_ci95": [
+          -0.08050553266463507,
+          0.288707001655912
+        ],
+        "cluster_bootstrap_p_le0": 0.116,
+        "per_dataset_rho_mean": 0.19351453363398166,
+        "per_dataset_rho_n_pos": "7/12",
+        "per_dataset_wilcoxon_p": 0.08740234375,
+        "dataset_identity_perm_p": 0.1801639672065587,
+        "dataset_identity_null_mean": -0.004759213448742769
+      },
+      "noise_features": {
+        "n_cells": 48,
+        "n_datasets": 12,
+        "rho": 0.23708206686930092,
+        "free_perm_p (original, ignores clustering)": 0.05558888222355529,
+        "cluster_bootstrap_ci95": [
+          0.01681589437206485,
+          0.504141129261229
+        ],
+        "cluster_bootstrap_p_le0": 0.0166,
+        "per_dataset_rho_mean": 0.3833333333333333,
+        "per_dataset_rho_n_pos": "9/12",
+        "per_dataset_wilcoxon_p": 0.02197265625,
+        "dataset_identity_perm_p": 0.4401119776044791,
+        "dataset_identity_null_mean": 0.219834650455927
+      },
+      "rotate": {
+        "n_cells": 48,
+        "n_datasets": 12,
+        "rho": 0.19792573544307263,
+        "free_perm_p (original, ignores clustering)": 0.09518096380723855,
+        "cluster_bootstrap_ci95": [
+          -0.06300519603069196,
+          0.4414928282707242
+        ],
+        "cluster_bootstrap_p_le0": 0.0724,
+        "per_dataset_rho_mean": 0.27387900711859464,
+        "per_dataset_rho_n_pos": "7/12",
+        "per_dataset_wilcoxon_p": 0.0869140625,
+        "dataset_identity_perm_p": 0.059988002399520096,
+        "dataset_identity_null_mean": -0.05094725719629397
+      },
+      "quantize": {
+        "n_cells": 48,
+        "n_datasets": 12,
+        "rho": 0.15236389318434315,
+        "free_perm_p (original, ignores clustering)": 0.15476904619076184,
+        "cluster_bootstrap_ci95": [
+          -0.26545984449807297,
+          0.5344700500823458
+        ],
+        "cluster_bootstrap_p_le0": 0.2198,
+        "per_dataset_rho_mean": 0.3367081826059662,
+        "per_dataset_rho_n_pos": "9/12",
+        "per_dataset_wilcoxon_p": 0.027099609375,
+        "dataset_identity_perm_p": 0.20435912817436513,
+        "dataset_identity_null_mean": 0.005677468390277719
+      }
+    },
+    "pooled": {
+      "all": {
+        "n_cells": 288,
+        "n_datasets": 24,
+        "rho": 0.4955853610017185,
+        "free_perm_p (original, ignores clustering)": 0.0001999600079984003,
+        "cluster_bootstrap_ci95": [
+          0.38981732515026796,
+          0.6063242974733987
+        ],
+        "cluster_bootstrap_p_le0": 0.0,
+        "per_dataset_rho_mean": 0.6003758741611465,
+        "per_dataset_rho_n_pos": "23/24",
+        "per_dataset_wilcoxon_p": 1.7881393432617188e-07,
+        "dataset_identity_perm_p": 0.026394721055788842,
+        "dataset_identity_null_mean": 0.3923575784987237
+      },
+      "without_noise": {
+        "n_cells": 192,
+        "n_datasets": 24,
+        "rho": 0.25136270617138984,
+        "free_perm_p (original, ignores clustering)": 0.0003999200159968006,
+        "cluster_bootstrap_ci95": [
+          0.10248466748441853,
+          0.4048496994251292
+        ],
+        "cluster_bootstrap_p_le0": 0.0004,
+        "per_dataset_rho_mean": 0.3223842792314567,
+        "per_dataset_rho_n_pos": "17/24",
+        "per_dataset_wilcoxon_p": 0.0008653791406978757,
+        "dataset_identity_perm_p": 0.021995600879824034,
+        "dataset_identity_null_mean": 0.057467979791269434
+      },
+      "noise_features": {
+        "n_cells": 96,
+        "n_datasets": 24,
+        "rho": 0.3427292457948996,
+        "free_perm_p (original, ignores clustering)": 0.0005998800239952009,
+        "cluster_bootstrap_ci95": [
+          0.1497497070781392,
+          0.5225292902412919
+        ],
+        "cluster_bootstrap_p_le0": 0.0008,
+        "per_dataset_rho_mean": 0.5166666666666666,
+        "per_dataset_rho_n_pos": "19/24",
+        "per_dataset_wilcoxon_p": 0.0002229989035083829,
+        "dataset_identity_perm_p": 0.16856628674265148,
+        "dataset_identity_null_mean": 0.24125936787845903
+      },
+      "rotate": {
+        "n_cells": 96,
+        "n_datasets": 24,
+        "rho": 0.21804255145539447,
+        "free_perm_p (original, ignores clustering)": 0.019596080783843232,
+        "cluster_bootstrap_ci95": [
+          0.0023132296456453497,
+          0.414605177948707
+        ],
+        "cluster_bootstrap_p_le0": 0.024,
+        "per_dataset_rho_mean": 0.15827789646176138,
+        "per_dataset_rho_n_pos": "13/24",
+        "per_dataset_wilcoxon_p": 0.09485939419598405,
+        "dataset_identity_perm_p": 0.05098980203959208,
+        "dataset_identity_null_mean": -0.010473268697181395
+      },
+      "quantize": {
+        "n_cells": 96,
+        "n_datasets": 24,
+        "rho": 0.25782492674087226,
+        "free_perm_p (original, ignores clustering)": 0.002599480103979204,
+        "cluster_bootstrap_ci95": [
+          0.05875501788336551,
+          0.4532473995107999
+        ],
+        "cluster_bootstrap_p_le0": 0.007,
+        "per_dataset_rho_mean": 0.3915026532133243,
+        "per_dataset_rho_n_pos": "19/24",
+        "per_dataset_wilcoxon_p": 0.001631266313170336,
+        "dataset_identity_perm_p": 0.022195560887822437,
+        "dataset_identity_null_mean": -0.0011462210762719857
+      }
+    }
+  },
+  "C_decision_analysis": {
+    "n": 61,
+    "mean_regret_auc": {
+      "oracle": 0.0,
+      "always_gbdt": 0.0023828413949146,
+      "always_mlp": 0.0185221067063635,
+      "meta_regressor_sign": 0.0025645218290835177,
+      "T_mi_max_sign": 0.0026573115309128175
+    },
+    "mlp_gain_total_auc": 0.1453533250897906,
+    "n_datasets_mlp_better": 21,
+    "prioritisation_curve": [
+      {
+        "frac_datasets_mlp_trained": 0.1,
+        "k": 6,
+        "gain_captured_meta": 0.04596352173899256,
+        "gain_captured_T_mi_max": 0.013073154779083716,
+        "gain_captured_random_expected": 0.09836065573770492
+      },
+      {
+        "frac_datasets_mlp_trained": 0.2,
+        "k": 12,
+        "gain_captured_meta": 0.2525731625235753,
+        "gain_captured_T_mi_max": 0.08467908616759995,
+        "gain_captured_random_expected": 0.19672131147540983
+      },
+      {
+        "frac_datasets_mlp_trained": 0.25,
+        "k": 15,
+        "gain_captured_meta": 0.26029087294472786,
+        "gain_captured_T_mi_max": 0.12928515203463734,
+        "gain_captured_random_expected": 0.2459016393442623
+      },
+      {
+        "frac_datasets_mlp_trained": 0.33,
+        "k": 20,
+        "gain_captured_meta": 0.3113701811003259,
+        "gain_captured_T_mi_max": 0.1300482213479601,
+        "gain_captured_random_expected": 0.32786885245901637
+      },
+      {
+        "frac_datasets_mlp_trained": 0.5,
+        "k": 30,
+        "gain_captured_meta": 0.3530524299767859,
+        "gain_captured_T_mi_max": 0.6091946787298255,
+        "gain_captured_random_expected": 0.4918032786885246
+      }
+    ],
+    "top25pct_perm_p_meta": 0.4367126574685063,
+    "top25pct_perm_p_T_mi_max": 0.7256548690261948,
+    "spearman_T_mi_max_lodo": 0.490481226864093
+  }
+}

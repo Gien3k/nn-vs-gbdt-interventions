@@ -1,0 +1,27 @@
+{
+  "best_cfg": {
+    "width": 256,
+    "depth": 4,
+    "hidden_factor": 2.0,
+    "hidden_dropout": 0.4,
+    "residual_dropout": 0.0,
+    "lr": 0.0005989202474008654,
+    "weight_decay": 0.0009668324380921494
+  },
+  "val_auc": 0.6732136176580621,
+  "test_aucs": [
+    0.7929292929292929,
+    0.7914328469884025,
+    0.7832023943135055,
+    0.7933034044145155,
+    0.7933034044145155
+  ],
+  "n_trials_ok": 30,
+  "reused": false,
+  "dataset_id": 1480,
+  "kind": "select_features",
+  "dose": 0.25,
+  "family": "resnet",
+  "test_auc": 0.7908342686120464,
+  "seconds": 14.7
+}

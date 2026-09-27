@@ -1,0 +1,11 @@
+{
+  "tie_eps": 0.005,
+  "n_decided": 35,
+  "n_total": 61,
+  "decided_base_rate_nn": 0.2571428571428571,
+  "lodo_accuracy_decided": 0.6857142857142857,
+  "majority_baseline_decided": 0.7428571428571429,
+  "perm_null_mean": 0.6281428571428571,
+  "perm_null_q95": 0.7728571428571424,
+  "perm_pvalue": 0.31840796019900497
+}

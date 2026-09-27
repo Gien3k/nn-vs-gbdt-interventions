@@ -1,0 +1,15 @@
+{
+  "dataset_id": 1494,
+  "name": "qsar-biodeg",
+  "n_rows": 1052,
+  "n_features": 41,
+  "n_classes": 2,
+  "categorical_cols": [],
+  "duplicates_removed": 3,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 631,
+    "val": 210,
+    "test": 211
+  }
+}

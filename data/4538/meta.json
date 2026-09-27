@@ -1,0 +1,15 @@
+{
+  "dataset_id": 4538,
+  "name": "GesturePhaseSegmentationProcessed",
+  "n_rows": 9873,
+  "n_features": 32,
+  "n_classes": 5,
+  "categorical_cols": [],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 5923,
+    "val": 1975,
+    "test": 1975
+  }
+}

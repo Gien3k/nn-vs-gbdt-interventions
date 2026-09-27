@@ -1,0 +1,19 @@
+{
+  "dataset_id": 40994,
+  "kind": "select_features",
+  "dose": 0.1,
+  "n_features_kept": 2,
+  "families": {
+    "mlp": {
+      "test_auc_mean": 0.918443696221474
+    },
+    "xgb": {
+      "test_auc_mean": 0.8965581743359521
+    },
+    "lgbm": {
+      "test_auc_mean": 0.8916947250280584
+    }
+  },
+  "nn_minus_gbdt": 0.021885521885521952,
+  "baseline_margin": -0.02581369248035925
+}

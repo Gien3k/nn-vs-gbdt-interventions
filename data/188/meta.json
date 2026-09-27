@@ -1,0 +1,21 @@
+{
+  "dataset_id": 188,
+  "name": "eucalyptus",
+  "n_rows": 736,
+  "n_features": 19,
+  "n_classes": 5,
+  "categorical_cols": [
+    "Abbrev",
+    "Locality",
+    "Map_Ref",
+    "Latitude",
+    "Sp"
+  ],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 441,
+    "val": 147,
+    "test": 148
+  }
+}

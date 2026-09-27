@@ -1,0 +1,32 @@
+{
+  "dose": 4.0,
+  "n_cfg": 10,
+  "rows": [
+    {
+      "dataset_id": 54,
+      "baseline_margin": 0.015125436195748576,
+      "frozen_cfg_margin_at_max": -0.13526209612147122,
+      "retuned_margin_at_max": -0.15961892418923662
+    },
+    {
+      "dataset_id": 1049,
+      "baseline_margin": -0.02699093943729114,
+      "frozen_cfg_margin_at_max": -0.13718009855348912,
+      "retuned_margin_at_max": -0.15136703226831982
+    },
+    {
+      "dataset_id": 1475,
+      "baseline_margin": -0.04442977762863387,
+      "frozen_cfg_margin_at_max": -0.14911964783358367,
+      "retuned_margin_at_max": -0.14885793296032956
+    },
+    {
+      "dataset_id": 1487,
+      "baseline_margin": -0.0265822784810128,
+      "frozen_cfg_margin_at_max": -0.12634054149085783,
+      "retuned_margin_at_max": -0.06399437412095621
+    }
+  ],
+  "mean_delta_retuned": -0.11024017604691325,
+  "all_still_negative": true
+}

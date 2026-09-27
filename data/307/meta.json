@@ -1,0 +1,18 @@
+{
+  "dataset_id": 307,
+  "name": "vowel",
+  "n_rows": 990,
+  "n_features": 12,
+  "n_classes": 11,
+  "categorical_cols": [
+    "Speaker_Number",
+    "Sex"
+  ],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 594,
+    "val": 198,
+    "test": 198
+  }
+}

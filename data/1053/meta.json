@@ -1,0 +1,15 @@
+{
+  "dataset_id": 1053,
+  "name": "jm1",
+  "n_rows": 8912,
+  "n_features": 21,
+  "n_classes": 2,
+  "categorical_cols": [],
+  "duplicates_removed": 1973,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 5347,
+    "val": 1782,
+    "test": 1783
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "dataset_id": 1464,
+  "name": "blood-transfusion-service-center",
+  "families": {
+    "mlp": {
+      "best_cfg": {
+        "width": 512,
+        "depth": 4,
+        "dropout": 0.0,
+        "lr": 0.0007435908910986576,
+        "weight_decay": 0.00028258084633128863
+      },
+      "val_auc": 0.8032467532467532,
+      "test_runs": [
+        {
+          "roc_auc_ovr": 0.5603896103896104,
+          "accuracy": 0.6074766355140186,
+          "log_loss": 0.7313963174819946
+        },
+        {
+          "roc_auc_ovr": 0.5642857142857143,
+          "accuracy": 0.6355140186915887,
+          "log_loss": 0.6734445095062256
+        },
+        {
+          "roc_auc_ovr": 0.5928571428571429,
+          "accuracy": 0.6542056074766355,
+          "log_loss": 0.682546854019165
+        },
+        {
+          "roc_auc_ovr": 0.6106060606060606,
+          "accuracy": 0.6915887850467289,
+          "log_loss": 0.631388783454895
+        },
+        {
+          "roc_auc_ovr": 0.6231601731601731,
+          "accuracy": 0.7102803738317757,
+          "log_loss": 0.6065099239349365
+        }
+      ],
+      "test_auc_mean": 0.5902597402597404,
+      "test_auc_std": 0.024779154225605712,
+      "n_trials_ok": 30,
+      "tune_seconds": 4.9
+    },
+    "xgb": {
+      "best_cfg": {
+        "n_estimators": 200,
+        "learning_rate": 0.008018365868663255,
+        "max_depth": 9,
+        "subsample": 0.980535820534659,
+        "colsample_bytree": 0.8915309429088498,
+        "min_child_weight": 1.691252677519917,
+        "reg_lambda": 5.902505145221254
+      },
+      "val_auc": 0.7852813852813854,
+      "test_runs": [
+        {
+          "roc_auc_ovr": 0.6203463203463204,
+          "accuracy": 0.6915887850467289,
+          "log_loss": 0.5816107988357544
+        },
+        {
+          "roc_auc_ovr": 0.6246753246753247,
+          "accuracy": 0.6915887850467289,
+          "log_loss": 0.5808209180831909
+        },
+        {
+          "roc_auc_ovr": 0.6242424242424242,
+          "accuracy": 0.6915887850467289,
+          "log_loss": 0.5813121795654297
+        },
+        {
+          "roc_auc_ovr": 0.6233766233766234,
+          "accuracy": 0.6915887850467289,
+          "log_loss": 0.5813342928886414
+        },
+        {
+          "roc_auc_ovr": 0.6251082251082252,
+          "accuracy": 0.6915887850467289,
+          "log_loss": 0.5810114741325378
+        }
+      ],
+      "test_auc_mean": 0.6235497835497836,
+      "test_auc_std": 0.0017010288055747424,
+      "n_trials_ok": 30,
+      "tune_seconds": 18.6
+    },
+    "lgbm": {
+      "best_cfg": {
+        "n_estimators": 500,
+        "learning_rate": 0.01006276772258772,
+        "num_leaves": 255,
+        "subsample": 0.8550517815657215,
+        "colsample_bytree": 0.9694465366894678,
+        "min_child_samples": 33,
+        "reg_lambda": 0.08738295716873157
+      },
+      "val_auc": 0.7803030303030303,
+      "test_runs": [
+        {
+          "roc_auc_ovr": 0.6038961038961039,
+          "accuracy": 0.7009345794392523,
+          "log_loss": 0.6493710472507204
+        },
+        {
+          "roc_auc_ovr": 0.6038961038961039,
+          "accuracy": 0.7009345794392523,
+          "log_loss": 0.6493710472507204
+        },
+        {
+          "roc_auc_ovr": 0.6038961038961039,
+          "accuracy": 0.7009345794392523,
+          "log_loss": 0.6493710472507204
+        },
+        {
+          "roc_auc_ovr": 0.6038961038961039,
+          "accuracy": 0.7009345794392523,
+          "log_loss": 0.6493710472507204
+        },
+        {
+          "roc_auc_ovr": 0.6038961038961039,
+          "accuracy": 0.7009345794392523,
+          "log_loss": 0.6493710472507204
+        }
+      ],
+      "test_auc_mean": 0.6038961038961039,
+      "test_auc_std": 0.0,
+      "n_trials_ok": 30,
+      "tune_seconds": 2.4
+    }
+  },
+  "winner": "xgb",
+  "nn_minus_gbdt": -0.03329004329004326
+}

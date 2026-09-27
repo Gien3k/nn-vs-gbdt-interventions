@@ -1,0 +1,15 @@
+{
+  "dataset_id": 23517,
+  "name": "numerai28.6",
+  "n_rows": 50000,
+  "n_features": 21,
+  "n_classes": 2,
+  "categorical_cols": [],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 30000,
+    "val": 10000,
+    "test": 10000
+  }
+}

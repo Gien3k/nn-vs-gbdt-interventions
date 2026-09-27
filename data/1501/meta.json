@@ -1,0 +1,15 @@
+{
+  "dataset_id": 1501,
+  "name": "semeion",
+  "n_rows": 1593,
+  "n_features": 256,
+  "n_classes": 10,
+  "categorical_cols": [],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 955,
+    "val": 319,
+    "test": 319
+  }
+}

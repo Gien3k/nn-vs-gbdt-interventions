@@ -1,0 +1,21 @@
+{
+  "dataset_id": 1464,
+  "kind": "noise_features",
+  "dose": 4.0,
+  "families": {
+    "mlp": {
+      "test_auc_mean": 0.5245310245310245,
+      "test_auc_std": 0.023366823164399187
+    },
+    "xgb": {
+      "test_auc_mean": 0.6067821067821068,
+      "test_auc_std": 0.007616532883345839
+    },
+    "lgbm": {
+      "test_auc_mean": 0.5582972582972583,
+      "test_auc_std": 0.0068660186166639835
+    }
+  },
+  "nn_minus_gbdt": -0.08225108225108224,
+  "baseline_margin": -0.03329004329004326
+}

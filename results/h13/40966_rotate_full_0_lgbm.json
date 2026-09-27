@@ -1,0 +1,27 @@
+{
+  "best_cfg": {
+    "n_estimators": 500,
+    "learning_rate": 0.06433014787810347,
+    "num_leaves": 15,
+    "subsample": 0.6371332094967769,
+    "colsample_bytree": 0.8225606282338292,
+    "min_child_samples": 43,
+    "reg_lambda": 0.014954536781369763
+  },
+  "val_auc": 0.9990497519096683,
+  "test_aucs": [
+    0.9989297427096113,
+    0.9988398847269815,
+    0.9988705343618725,
+    0.9991762861237174,
+    0.9989091829892308
+  ],
+  "n_trials_ok": 30,
+  "reused": false,
+  "dataset_id": 40966,
+  "kind": "rotate_full",
+  "dose": 0,
+  "family": "lgbm",
+  "test_auc": 0.9989451261822827,
+  "seconds": 70.8
+}

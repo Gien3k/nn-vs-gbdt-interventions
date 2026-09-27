@@ -1,0 +1,1552 @@
+{
+  "primary_extension_replication": {
+    "n": 144,
+    "spearman_rho": 0.5060839477907277,
+    "perm_p": 0.0004997501249375312,
+    "sign_agreement": "95/144"
+  },
+  "exploratory_select_features": {
+    "n": 48,
+    "spearman_rho": -0.13861278910599226,
+    "perm_p": 0.8300849575212393,
+    "sign_agreement": "15/48"
+  },
+  "rows": [
+    {
+      "dataset_id": 37,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": -0.02898765432098771,
+      "delta_pred": -0.005697652573490301
+    },
+    {
+      "dataset_id": 37,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": -0.0340493827160494,
+      "delta_pred": -0.004436299924106976
+    },
+    {
+      "dataset_id": 37,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": -0.058987654320987626,
+      "delta_pred": -0.0005759784367758147
+    },
+    {
+      "dataset_id": 37,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "cohort": "extension",
+      "delta_obs": -0.06553086419753085,
+      "delta_pred": -0.008815294600610382
+    },
+    {
+      "dataset_id": 37,
+      "kind": "quantize",
+      "dose": 2,
+      "cohort": "extension",
+      "delta_obs": 0.011629629629629656,
+      "delta_pred": 0.01846101559779074
+    },
+    {
+      "dataset_id": 37,
+      "kind": "quantize",
+      "dose": 32,
+      "cohort": "extension",
+      "delta_obs": 0.008604938271604912,
+      "delta_pred": 0.0002072236807197439
+    },
+    {
+      "dataset_id": 37,
+      "kind": "quantize",
+      "dose": 4,
+      "cohort": "extension",
+      "delta_obs": -0.020376543209876585,
+      "delta_pred": -0.0030809194202730886
+    },
+    {
+      "dataset_id": 37,
+      "kind": "quantize",
+      "dose": 8,
+      "cohort": "extension",
+      "delta_obs": -0.01830864197530868,
+      "delta_pred": -0.01981914664225992
+    },
+    {
+      "dataset_id": 37,
+      "kind": "rotate",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": 0.010580246913580282,
+      "delta_pred": -0.00039257550652649353
+    },
+    {
+      "dataset_id": 37,
+      "kind": "rotate",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.004283950617284038,
+      "delta_pred": -0.00039257550652649353
+    },
+    {
+      "dataset_id": 37,
+      "kind": "rotate",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": 0.01465432098765429,
+      "delta_pred": -0.0007026915128500594
+    },
+    {
+      "dataset_id": 37,
+      "kind": "rotate",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": -0.005037037037036951,
+      "delta_pred": 0.017104527404484742
+    },
+    {
+      "dataset_id": 44,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": -0.014297085764477191,
+      "delta_pred": -0.016639599945081816
+    },
+    {
+      "dataset_id": 44,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": -0.012571757952192786,
+      "delta_pred": -0.01564338822424974
+    },
+    {
+      "dataset_id": 44,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": -0.024931379007465893,
+      "delta_pred": -0.061384796006383226
+    },
+    {
+      "dataset_id": 44,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "cohort": "extension",
+      "delta_obs": -0.04175332517723829,
+      "delta_pred": -0.08297309414472721
+    },
+    {
+      "dataset_id": 44,
+      "kind": "quantize",
+      "dose": 2,
+      "cohort": "extension",
+      "delta_obs": 0.0014288851245373158,
+      "delta_pred": -0.0011984539738506411
+    },
+    {
+      "dataset_id": 44,
+      "kind": "quantize",
+      "dose": 32,
+      "cohort": "extension",
+      "delta_obs": -0.01056802497019893,
+      "delta_pred": -0.00011931395958032776
+    },
+    {
+      "dataset_id": 44,
+      "kind": "quantize",
+      "dose": 4,
+      "cohort": "extension",
+      "delta_obs": -0.0015453447518665175,
+      "delta_pred": -0.0019563936026060387
+    },
+    {
+      "dataset_id": 44,
+      "kind": "quantize",
+      "dose": 8,
+      "cohort": "extension",
+      "delta_obs": -0.0007777699353785916,
+      "delta_pred": -0.00011931395958032776
+    },
+    {
+      "dataset_id": 44,
+      "kind": "rotate",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": 0.007308723884810742,
+      "delta_pred": -0.0003712626030926225
+    },
+    {
+      "dataset_id": 44,
+      "kind": "rotate",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.013323844030365795,
+      "delta_pred": -0.018398460054358134
+    },
+    {
+      "dataset_id": 44,
+      "kind": "rotate",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": 0.015006038647342956,
+      "delta_pred": -0.0015697165769432636
+    },
+    {
+      "dataset_id": 44,
+      "kind": "rotate",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": 0.01449432210301771,
+      "delta_pred": -0.0003712626030926225
+    },
+    {
+      "dataset_id": 307,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": -0.007955480733258358,
+      "delta_pred": -0.029749286435683676
+    },
+    {
+      "dataset_id": 307,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": -0.025650953984287406,
+      "delta_pred": -0.04314276400264048
+    },
+    {
+      "dataset_id": 307,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": -0.04240179573512903,
+      "delta_pred": -0.051008973147553587
+    },
+    {
+      "dataset_id": 307,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "cohort": "extension",
+      "delta_obs": -0.1154283576505798,
+      "delta_pred": -0.05934025901920729
+    },
+    {
+      "dataset_id": 307,
+      "kind": "quantize",
+      "dose": 2,
+      "cohort": "extension",
+      "delta_obs": -0.012126823793490504,
+      "delta_pred": -0.0407779314290229
+    },
+    {
+      "dataset_id": 307,
+      "kind": "quantize",
+      "dose": 32,
+      "cohort": "extension",
+      "delta_obs": 0.00016273849607173485,
+      "delta_pred": 0.011391353430990375
+    },
+    {
+      "dataset_id": 307,
+      "kind": "quantize",
+      "dose": 4,
+      "cohort": "extension",
+      "delta_obs": -0.005589225589225477,
+      "delta_pred": -0.019710240566818527
+    },
+    {
+      "dataset_id": 307,
+      "kind": "quantize",
+      "dose": 8,
+      "cohort": "extension",
+      "delta_obs": -0.0016236438458662183,
+      "delta_pred": -0.003635895910184879
+    },
+    {
+      "dataset_id": 307,
+      "kind": "rotate",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": -0.0025028058361392658,
+      "delta_pred": 0.011308542682721034
+    },
+    {
+      "dataset_id": 307,
+      "kind": "rotate",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.003202394313505663,
+      "delta_pred": -0.03632707549164837
+    },
+    {
+      "dataset_id": 307,
+      "kind": "rotate",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": 0.006391694725027985,
+      "delta_pred": -0.025830861293617398
+    },
+    {
+      "dataset_id": 307,
+      "kind": "rotate",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": 0.00553123830901614,
+      "delta_pred": -0.026684189707814228
+    },
+    {
+      "dataset_id": 1049,
+      "kind": "select_features",
+      "dose": 0.1,
+      "cohort": "pilot",
+      "delta_obs": -0.005535685900493137,
+      "delta_pred": -0.007976232650344564
+    },
+    {
+      "dataset_id": 1049,
+      "kind": "select_features",
+      "dose": 0.25,
+      "cohort": "pilot",
+      "delta_obs": -0.007979653473216053,
+      "delta_pred": 0.00628998417343902
+    },
+    {
+      "dataset_id": 1049,
+      "kind": "select_features",
+      "dose": 0.5,
+      "cohort": "pilot",
+      "delta_obs": -0.005793991416309319,
+      "delta_pred": 0.010341058287565427
+    },
+    {
+      "dataset_id": 1049,
+      "kind": "select_features",
+      "dose": 0.75,
+      "cohort": "pilot",
+      "delta_obs": -0.004164679701160634,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 1050,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": -0.051650558554035664,
+      "delta_pred": -0.018154839698188863
+    },
+    {
+      "dataset_id": 1050,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": -0.05591816241998271,
+      "delta_pred": -0.020912318827475494
+    },
+    {
+      "dataset_id": 1050,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": -0.0764612359315513,
+      "delta_pred": -0.01777841266264044
+    },
+    {
+      "dataset_id": 1050,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "cohort": "extension",
+      "delta_obs": -0.07696330697460385,
+      "delta_pred": -0.01893304449544374
+    },
+    {
+      "dataset_id": 1050,
+      "kind": "quantize",
+      "dose": 2,
+      "cohort": "extension",
+      "delta_obs": 0.03822015815237845,
+      "delta_pred": 0.0017014116027101317
+    },
+    {
+      "dataset_id": 1050,
+      "kind": "quantize",
+      "dose": 32,
+      "cohort": "extension",
+      "delta_obs": 0.011380276975858639,
+      "delta_pred": 0.0007481618709893854
+    },
+    {
+      "dataset_id": 1050,
+      "kind": "quantize",
+      "dose": 4,
+      "cohort": "extension",
+      "delta_obs": 0.06717292163507793,
+      "delta_pred": -0.0008988270623918153
+    },
+    {
+      "dataset_id": 1050,
+      "kind": "quantize",
+      "dose": 8,
+      "cohort": "extension",
+      "delta_obs": -0.005920254382661971,
+      "delta_pred": -0.013894540726679522
+    },
+    {
+      "dataset_id": 1050,
+      "kind": "rotate",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": 0.010731768545249043,
+      "delta_pred": 0.000362328324916044
+    },
+    {
+      "dataset_id": 1050,
+      "kind": "rotate",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.0352914104012384,
+      "delta_pred": 0.000362328324916044
+    },
+    {
+      "dataset_id": 1050,
+      "kind": "rotate",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": 0.01805363792309922,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 1050,
+      "kind": "rotate",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": -0.01755156688004722,
+      "delta_pred": -0.002787101715768063
+    },
+    {
+      "dataset_id": 1053,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": -0.01456163546256184,
+      "delta_pred": -0.006683215393605644
+    },
+    {
+      "dataset_id": 1053,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": -0.028526328050791472,
+      "delta_pred": -0.030363902395987245
+    },
+    {
+      "dataset_id": 1053,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": -0.04451565488992437,
+      "delta_pred": -0.026677459485535956
+    },
+    {
+      "dataset_id": 1053,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "cohort": "extension",
+      "delta_obs": -0.044140389051604334,
+      "delta_pred": -0.028496314042133996
+    },
+    {
+      "dataset_id": 1053,
+      "kind": "quantize",
+      "dose": 2,
+      "cohort": "extension",
+      "delta_obs": -0.017543948132857423,
+      "delta_pred": 0.002802231457731657
+    },
+    {
+      "dataset_id": 1053,
+      "kind": "quantize",
+      "dose": 32,
+      "cohort": "extension",
+      "delta_obs": 0.0097916163810442,
+      "delta_pred": -0.0067273333012545684
+    },
+    {
+      "dataset_id": 1053,
+      "kind": "quantize",
+      "dose": 4,
+      "cohort": "extension",
+      "delta_obs": -0.002454058455009678,
+      "delta_pred": 0.0025560286388517997
+    },
+    {
+      "dataset_id": 1053,
+      "kind": "quantize",
+      "dose": 8,
+      "cohort": "extension",
+      "delta_obs": -0.009354446690035378,
+      "delta_pred": 0.0025560286388517997
+    },
+    {
+      "dataset_id": 1053,
+      "kind": "rotate",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": -0.005690050832009574,
+      "delta_pred": -0.003086557055334848
+    },
+    {
+      "dataset_id": 1053,
+      "kind": "rotate",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": -0.0015059868410783883,
+      "delta_pred": 0.0021272358924525406
+    },
+    {
+      "dataset_id": 1053,
+      "kind": "rotate",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": -0.003964128188408966,
+      "delta_pred": -0.02081060069525897
+    },
+    {
+      "dataset_id": 1053,
+      "kind": "rotate",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": -0.008010094350838215,
+      "delta_pred": 0.001071148296513398
+    },
+    {
+      "dataset_id": 1053,
+      "kind": "select_features",
+      "dose": 0.1,
+      "cohort": "extension",
+      "delta_obs": -0.009355647540718048,
+      "delta_pred": 0.009669579783293941
+    },
+    {
+      "dataset_id": 1053,
+      "kind": "select_features",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": -0.00599836924477315,
+      "delta_pred": 0.007352682439327634
+    },
+    {
+      "dataset_id": 1053,
+      "kind": "select_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.021338996545152256,
+      "delta_pred": -0.0049375778660971925
+    },
+    {
+      "dataset_id": 1053,
+      "kind": "select_features",
+      "dose": 0.75,
+      "cohort": "extension",
+      "delta_obs": 0.005954898450061807,
+      "delta_pred": -0.0049375778660971925
+    },
+    {
+      "dataset_id": 1067,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": -0.04388594944150492,
+      "delta_pred": -0.0121648051046526
+    },
+    {
+      "dataset_id": 1067,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": 0.0031158142269253064,
+      "delta_pred": -0.013281489468078007
+    },
+    {
+      "dataset_id": 1067,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": -0.04185773074661947,
+      "delta_pred": -0.010557399141100134
+    },
+    {
+      "dataset_id": 1067,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "cohort": "extension",
+      "delta_obs": -0.014226925338036267,
+      "delta_pred": -0.01838327964191784
+    },
+    {
+      "dataset_id": 1067,
+      "kind": "quantize",
+      "dose": 2,
+      "cohort": "extension",
+      "delta_obs": -0.013521457965902317,
+      "delta_pred": 0.012458318590746689
+    },
+    {
+      "dataset_id": 1067,
+      "kind": "quantize",
+      "dose": 32,
+      "cohort": "extension",
+      "delta_obs": -0.0017930629041739143,
+      "delta_pred": -0.0004866329164534139
+    },
+    {
+      "dataset_id": 1067,
+      "kind": "quantize",
+      "dose": 4,
+      "cohort": "extension",
+      "delta_obs": -0.000690770135214458,
+      "delta_pred": 0.00031237159426723143
+    },
+    {
+      "dataset_id": 1067,
+      "kind": "quantize",
+      "dose": 8,
+      "cohort": "extension",
+      "delta_obs": 0.0031746031746032743,
+      "delta_pred": 0.011733243588324435
+    },
+    {
+      "dataset_id": 1067,
+      "kind": "rotate",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": 0.01230158730158748,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 1067,
+      "kind": "rotate",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.01528512639623758,
+      "delta_pred": 0.00031237159426723143
+    },
+    {
+      "dataset_id": 1067,
+      "kind": "rotate",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": 0.03841857730746634,
+      "delta_pred": 0.00031237159426723143
+    },
+    {
+      "dataset_id": 1067,
+      "kind": "rotate",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": 0.002880658436214212,
+      "delta_pred": -0.00035799763894602335
+    },
+    {
+      "dataset_id": 1464,
+      "kind": "select_features",
+      "dose": 0.1,
+      "cohort": "pilot",
+      "delta_obs": -0.057041847041846894,
+      "delta_pred": 0.00797936993670513
+    },
+    {
+      "dataset_id": 1464,
+      "kind": "select_features",
+      "dose": 0.25,
+      "cohort": "pilot",
+      "delta_obs": -0.057041847041846894,
+      "delta_pred": 0.00813278276755583
+    },
+    {
+      "dataset_id": 1464,
+      "kind": "select_features",
+      "dose": 0.5,
+      "cohort": "pilot",
+      "delta_obs": -0.057041847041846894,
+      "delta_pred": 0.008507369244979308
+    },
+    {
+      "dataset_id": 1464,
+      "kind": "select_features",
+      "dose": 0.75,
+      "cohort": "pilot",
+      "delta_obs": -0.08027417027417028,
+      "delta_pred": 0.009129335295532275
+    },
+    {
+      "dataset_id": 1475,
+      "kind": "select_features",
+      "dose": 0.1,
+      "cohort": "pilot",
+      "delta_obs": 0.006404113078086748,
+      "delta_pred": -0.008817429924164254
+    },
+    {
+      "dataset_id": 1475,
+      "kind": "select_features",
+      "dose": 0.25,
+      "cohort": "pilot",
+      "delta_obs": -0.00987255871469217,
+      "delta_pred": -0.016623086867659648
+    },
+    {
+      "dataset_id": 1475,
+      "kind": "select_features",
+      "dose": 0.5,
+      "cohort": "pilot",
+      "delta_obs": -0.002269648609846464,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 1475,
+      "kind": "select_features",
+      "dose": 0.75,
+      "cohort": "pilot",
+      "delta_obs": 0.0038081985249913686,
+      "delta_pred": -0.001221211968952321
+    },
+    {
+      "dataset_id": 1480,
+      "kind": "select_features",
+      "dose": 0.1,
+      "cohort": "pilot",
+      "delta_obs": 0.07439830402793368,
+      "delta_pred": -0.002686505144249904
+    },
+    {
+      "dataset_id": 1480,
+      "kind": "select_features",
+      "dose": 0.25,
+      "cohort": "pilot",
+      "delta_obs": 0.07439830402793368,
+      "delta_pred": -0.002686505144249904
+    },
+    {
+      "dataset_id": 1480,
+      "kind": "select_features",
+      "dose": 0.5,
+      "cohort": "pilot",
+      "delta_obs": 0.06928544706322481,
+      "delta_pred": -0.002166195095849543
+    },
+    {
+      "dataset_id": 1480,
+      "kind": "select_features",
+      "dose": 0.75,
+      "cohort": "pilot",
+      "delta_obs": 0.04733757326349919,
+      "delta_pred": -0.0009363686364988796
+    },
+    {
+      "dataset_id": 1485,
+      "kind": "select_features",
+      "dose": 0.1,
+      "cohort": "extension",
+      "delta_obs": 0.14436291913215027,
+      "delta_pred": -0.0005589478606070515
+    },
+    {
+      "dataset_id": 1485,
+      "kind": "select_features",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": 0.10273076923076929,
+      "delta_pred": 0.007391128155039225
+    },
+    {
+      "dataset_id": 1485,
+      "kind": "select_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.010891518737672579,
+      "delta_pred": -0.0006582762669749068
+    },
+    {
+      "dataset_id": 1485,
+      "kind": "select_features",
+      "dose": 0.75,
+      "cohort": "extension",
+      "delta_obs": -0.011312623274161493,
+      "delta_pred": 0.006732851888064318
+    },
+    {
+      "dataset_id": 1487,
+      "kind": "select_features",
+      "dose": 0.1,
+      "cohort": "pilot",
+      "delta_obs": 0.061051775668073405,
+      "delta_pred": 0.0032932492223099845
+    },
+    {
+      "dataset_id": 1487,
+      "kind": "select_features",
+      "dose": 0.25,
+      "cohort": "pilot",
+      "delta_obs": 0.024000087904360257,
+      "delta_pred": 0.0037956967362949264
+    },
+    {
+      "dataset_id": 1487,
+      "kind": "select_features",
+      "dose": 0.5,
+      "cohort": "pilot",
+      "delta_obs": 0.009265119549929923,
+      "delta_pred": 0.015669056008660413
+    },
+    {
+      "dataset_id": 1487,
+      "kind": "select_features",
+      "dose": 0.75,
+      "cohort": "pilot",
+      "delta_obs": 0.001243846694796269,
+      "delta_pred": 0.00814870073495398
+    },
+    {
+      "dataset_id": 1489,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": -0.011470654920893053,
+      "delta_pred": -0.006129718688495097
+    },
+    {
+      "dataset_id": 1489,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": -0.033120703861616696,
+      "delta_pred": -0.006266427506434729
+    },
+    {
+      "dataset_id": 1489,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": -0.07608900022673104,
+      "delta_pred": -0.006068813659026288
+    },
+    {
+      "dataset_id": 1489,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "cohort": "extension",
+      "delta_obs": -0.0800471158153192,
+      "delta_pred": -0.007660671921249276
+    },
+    {
+      "dataset_id": 1489,
+      "kind": "quantize",
+      "dose": 2,
+      "cohort": "extension",
+      "delta_obs": 0.0200601666749618,
+      "delta_pred": -0.004525638962066807
+    },
+    {
+      "dataset_id": 1489,
+      "kind": "quantize",
+      "dose": 32,
+      "cohort": "extension",
+      "delta_obs": 0.007715767761058756,
+      "delta_pred": -0.0033079840560404934
+    },
+    {
+      "dataset_id": 1489,
+      "kind": "quantize",
+      "dose": 4,
+      "cohort": "extension",
+      "delta_obs": 0.017809446389170147,
+      "delta_pred": -0.0016463817402022282
+    },
+    {
+      "dataset_id": 1489,
+      "kind": "quantize",
+      "dose": 8,
+      "cohort": "extension",
+      "delta_obs": 0.02458787486658809,
+      "delta_pred": -0.0011496704439753272
+    },
+    {
+      "dataset_id": 1489,
+      "kind": "rotate",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": 0.0059779573192649815,
+      "delta_pred": -0.0033079840560404934
+    },
+    {
+      "dataset_id": 1489,
+      "kind": "rotate",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.01042409763812635,
+      "delta_pred": -0.0011496704439753272
+    },
+    {
+      "dataset_id": 1489,
+      "kind": "rotate",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": 0.012016744916524269,
+      "delta_pred": -0.0010610050035943386
+    },
+    {
+      "dataset_id": 1489,
+      "kind": "rotate",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": 0.028182391293528064,
+      "delta_pred": 0.0014685161787323514
+    },
+    {
+      "dataset_id": 1489,
+      "kind": "select_features",
+      "dose": 0.1,
+      "cohort": "extension",
+      "delta_obs": 0.06641698602562629,
+      "delta_pred": 0.009656481112708276
+    },
+    {
+      "dataset_id": 1489,
+      "kind": "select_features",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": 0.06641698602562629,
+      "delta_pred": 0.009656481112708276
+    },
+    {
+      "dataset_id": 1489,
+      "kind": "select_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.06641698602562629,
+      "delta_pred": 0.009656481112708276
+    },
+    {
+      "dataset_id": 1489,
+      "kind": "select_features",
+      "dose": 0.75,
+      "cohort": "extension",
+      "delta_obs": 0.0049770227449937865,
+      "delta_pred": -0.0011496704439753272
+    },
+    {
+      "dataset_id": 1497,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": -0.01223061264588754,
+      "delta_pred": -0.0013013233206178414
+    },
+    {
+      "dataset_id": 1497,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": -0.022125740448815212,
+      "delta_pred": -0.0198363521811001
+    },
+    {
+      "dataset_id": 1497,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": -0.047048874792777196,
+      "delta_pred": -0.03482808146306412
+    },
+    {
+      "dataset_id": 1497,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "cohort": "extension",
+      "delta_obs": -0.0886102500210828,
+      "delta_pred": -0.031131398310159854
+    },
+    {
+      "dataset_id": 1497,
+      "kind": "quantize",
+      "dose": 2,
+      "cohort": "extension",
+      "delta_obs": 0.010870473272022063,
+      "delta_pred": 0.008981036354305163
+    },
+    {
+      "dataset_id": 1497,
+      "kind": "quantize",
+      "dose": 32,
+      "cohort": "extension",
+      "delta_obs": 0.0003579829517801336,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 1497,
+      "kind": "quantize",
+      "dose": 4,
+      "cohort": "extension",
+      "delta_obs": 0.003172260316942066,
+      "delta_pred": 0.007368491221097991
+    },
+    {
+      "dataset_id": 1497,
+      "kind": "quantize",
+      "dose": 8,
+      "cohort": "extension",
+      "delta_obs": 0.00016903514805688413,
+      "delta_pred": 0.001060814947650715
+    },
+    {
+      "dataset_id": 1497,
+      "kind": "rotate",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": 0.006073021020544744,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 1497,
+      "kind": "rotate",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.012588372145524773,
+      "delta_pred": 0.00603414583971682
+    },
+    {
+      "dataset_id": 1497,
+      "kind": "rotate",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": 0.018387905685524286,
+      "delta_pred": 0.00603414583971682
+    },
+    {
+      "dataset_id": 1497,
+      "kind": "rotate",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": 0.018968510827239826,
+      "delta_pred": 0.003425454625217565
+    },
+    {
+      "dataset_id": 1497,
+      "kind": "select_features",
+      "dose": 0.1,
+      "cohort": "extension",
+      "delta_obs": 0.01260665336765221,
+      "delta_pred": 0.009481056390728411
+    },
+    {
+      "dataset_id": 1497,
+      "kind": "select_features",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": 0.009018668451075684,
+      "delta_pred": -0.014560762541382251
+    },
+    {
+      "dataset_id": 1497,
+      "kind": "select_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.0026362005165366797,
+      "delta_pred": -0.013149709141980463
+    },
+    {
+      "dataset_id": 1497,
+      "kind": "select_features",
+      "dose": 0.75,
+      "cohort": "extension",
+      "delta_obs": 0.002224440491664814,
+      "delta_pred": -0.013149709141980463
+    },
+    {
+      "dataset_id": 4538,
+      "kind": "select_features",
+      "dose": 0.1,
+      "cohort": "pilot",
+      "delta_obs": 0.10166074632410393,
+      "delta_pred": -0.008270591040009573
+    },
+    {
+      "dataset_id": 4538,
+      "kind": "select_features",
+      "dose": 0.25,
+      "cohort": "pilot",
+      "delta_obs": 0.04047080026931049,
+      "delta_pred": -0.007558375547349883
+    },
+    {
+      "dataset_id": 4538,
+      "kind": "select_features",
+      "dose": 0.5,
+      "cohort": "pilot",
+      "delta_obs": 0.017506458215668874,
+      "delta_pred": -0.006845400521389738
+    },
+    {
+      "dataset_id": 4538,
+      "kind": "select_features",
+      "dose": 0.75,
+      "cohort": "pilot",
+      "delta_obs": 0.010811517251516634,
+      "delta_pred": 0.007805025955977221
+    },
+    {
+      "dataset_id": 40701,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": -0.012670584501570437,
+      "delta_pred": -0.0005523952262041845
+    },
+    {
+      "dataset_id": 40701,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": -0.008662464296267047,
+      "delta_pred": 0.002173470907918692
+    },
+    {
+      "dataset_id": 40701,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": -0.03628155881677009,
+      "delta_pred": 0.0017427546679812007
+    },
+    {
+      "dataset_id": 40701,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "cohort": "extension",
+      "delta_obs": -0.12861606312310536,
+      "delta_pred": 0.003228517616597225
+    },
+    {
+      "dataset_id": 40701,
+      "kind": "quantize",
+      "dose": 2,
+      "cohort": "extension",
+      "delta_obs": 0.008019797104304338,
+      "delta_pred": 0.01564213422989894
+    },
+    {
+      "dataset_id": 40701,
+      "kind": "quantize",
+      "dose": 32,
+      "cohort": "extension",
+      "delta_obs": 0.003381047747245014,
+      "delta_pred": 0.0001529948164025116
+    },
+    {
+      "dataset_id": 40701,
+      "kind": "quantize",
+      "dose": 4,
+      "cohort": "extension",
+      "delta_obs": -0.004178294319139297,
+      "delta_pred": 0.010813877952356162
+    },
+    {
+      "dataset_id": 40701,
+      "kind": "quantize",
+      "dose": 8,
+      "cohort": "extension",
+      "delta_obs": 0.006880287161977305,
+      "delta_pred": 0.010231009566474974
+    },
+    {
+      "dataset_id": 40701,
+      "kind": "rotate",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": 0.009044398481018234,
+      "delta_pred": 0.0008279679814591975
+    },
+    {
+      "dataset_id": 40701,
+      "kind": "rotate",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.0074603018264992604,
+      "delta_pred": 0.0007939620247363541
+    },
+    {
+      "dataset_id": 40701,
+      "kind": "rotate",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": 0.008160696893091401,
+      "delta_pred": 0.0001529948164025116
+    },
+    {
+      "dataset_id": 40701,
+      "kind": "rotate",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": 0.01435755168149555,
+      "delta_pred": 0.010660883135953652
+    },
+    {
+      "dataset_id": 40701,
+      "kind": "select_features",
+      "dose": 0.1,
+      "cohort": "extension",
+      "delta_obs": 0.03538034735217854,
+      "delta_pred": -0.005916786247154689
+    },
+    {
+      "dataset_id": 40701,
+      "kind": "select_features",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": 0.02530122459699935,
+      "delta_pred": -0.007895800950667924
+    },
+    {
+      "dataset_id": 40701,
+      "kind": "select_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.021599527233330362,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 40701,
+      "kind": "select_features",
+      "dose": 0.75,
+      "cohort": "extension",
+      "delta_obs": 0.01200739792289085,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 40982,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": -0.004777628844109483,
+      "delta_pred": 0.0016409357609549731
+    },
+    {
+      "dataset_id": 40982,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": -0.022234821605611188,
+      "delta_pred": -0.014753197354538748
+    },
+    {
+      "dataset_id": 40982,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": -0.028092073525727512,
+      "delta_pred": -0.02832562978646169
+    },
+    {
+      "dataset_id": 40982,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "cohort": "extension",
+      "delta_obs": -0.04716211248941227,
+      "delta_pred": -0.03341332887315307
+    },
+    {
+      "dataset_id": 40982,
+      "kind": "quantize",
+      "dose": 2,
+      "cohort": "extension",
+      "delta_obs": 0.0030565341679943403,
+      "delta_pred": -0.010482449120356844
+    },
+    {
+      "dataset_id": 40982,
+      "kind": "quantize",
+      "dose": 32,
+      "cohort": "extension",
+      "delta_obs": 0.0003862624175386964,
+      "delta_pred": 0.000827989499387023
+    },
+    {
+      "dataset_id": 40982,
+      "kind": "quantize",
+      "dose": 4,
+      "cohort": "extension",
+      "delta_obs": 0.006151633943489054,
+      "delta_pred": 0.003112325334073564
+    },
+    {
+      "dataset_id": 40982,
+      "kind": "quantize",
+      "dose": 8,
+      "cohort": "extension",
+      "delta_obs": -0.0044699239724239614,
+      "delta_pred": 0.002284335834686543
+    },
+    {
+      "dataset_id": 40982,
+      "kind": "rotate",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": 0.005120668131977868,
+      "delta_pred": 0.000827989499387023
+    },
+    {
+      "dataset_id": 40982,
+      "kind": "rotate",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.005347085313316957,
+      "delta_pred": 0.000827989499387023
+    },
+    {
+      "dataset_id": 40982,
+      "kind": "rotate",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": 0.009272354453386589,
+      "delta_pred": 0.00297627385762961
+    },
+    {
+      "dataset_id": 40982,
+      "kind": "rotate",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": 0.011155606117933647,
+      "delta_pred": 0.004141151815384287
+    },
+    {
+      "dataset_id": 40984,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": -0.0060448298863541305,
+      "delta_pred": -0.002358736058149687
+    },
+    {
+      "dataset_id": 40984,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": -0.008516010775781346,
+      "delta_pred": -0.01667883231954964
+    },
+    {
+      "dataset_id": 40984,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": -0.017427190399453063,
+      "delta_pred": -0.017459045253130755
+    },
+    {
+      "dataset_id": 40984,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "cohort": "extension",
+      "delta_obs": -0.03994215389251521,
+      "delta_pred": -0.014163163757879998
+    },
+    {
+      "dataset_id": 40984,
+      "kind": "quantize",
+      "dose": 2,
+      "cohort": "extension",
+      "delta_obs": 0.00012535308409944435,
+      "delta_pred": -0.0019854079168612083
+    },
+    {
+      "dataset_id": 40984,
+      "kind": "quantize",
+      "dose": 32,
+      "cohort": "extension",
+      "delta_obs": -3.280497502156088e-05,
+      "delta_pred": -0.02111178030088126
+    },
+    {
+      "dataset_id": 40984,
+      "kind": "quantize",
+      "dose": 4,
+      "cohort": "extension",
+      "delta_obs": -0.00149546066775752,
+      "delta_pred": -0.021570073124820142
+    },
+    {
+      "dataset_id": 40984,
+      "kind": "quantize",
+      "dose": 8,
+      "cohort": "extension",
+      "delta_obs": 0.00051461073702741,
+      "delta_pred": 0.001565214218757418
+    },
+    {
+      "dataset_id": 40984,
+      "kind": "rotate",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": 0.002993507942572138,
+      "delta_pred": 0.0022180739531426205
+    },
+    {
+      "dataset_id": 40984,
+      "kind": "rotate",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.0037441635467613255,
+      "delta_pred": -0.00018116123998439
+    },
+    {
+      "dataset_id": 40984,
+      "kind": "rotate",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": 0.003461060005192196,
+      "delta_pred": -0.005265717212453728
+    },
+    {
+      "dataset_id": 40984,
+      "kind": "rotate",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": 0.008856749274111952,
+      "delta_pred": 0.0011417261158019653
+    },
+    {
+      "dataset_id": 40994,
+      "kind": "noise_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.006734006734006925,
+      "delta_pred": -0.04329482397651831
+    },
+    {
+      "dataset_id": 40994,
+      "kind": "noise_features",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": -0.03554059109614638,
+      "delta_pred": -0.04295374764077134
+    },
+    {
+      "dataset_id": 40994,
+      "kind": "noise_features",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": -0.08005985783763547,
+      "delta_pred": -0.04438030752337263
+    },
+    {
+      "dataset_id": 40994,
+      "kind": "noise_features",
+      "dose": 4.0,
+      "cohort": "extension",
+      "delta_obs": -0.08791619902731018,
+      "delta_pred": -0.043674803954635855
+    },
+    {
+      "dataset_id": 40994,
+      "kind": "quantize",
+      "dose": 2,
+      "cohort": "extension",
+      "delta_obs": -0.0018705574261128621,
+      "delta_pred": -0.016195613941551824
+    },
+    {
+      "dataset_id": 40994,
+      "kind": "quantize",
+      "dose": 32,
+      "cohort": "extension",
+      "delta_obs": 0.0007482229704451893,
+      "delta_pred": 0.0004621287058829294
+    },
+    {
+      "dataset_id": 40994,
+      "kind": "quantize",
+      "dose": 4,
+      "cohort": "extension",
+      "delta_obs": 0.0026187803965583845,
+      "delta_pred": -0.01585903493389388
+    },
+    {
+      "dataset_id": 40994,
+      "kind": "quantize",
+      "dose": 8,
+      "cohort": "extension",
+      "delta_obs": 0.06771417882528996,
+      "delta_pred": -0.006699861703829135
+    },
+    {
+      "dataset_id": 40994,
+      "kind": "rotate",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": 0.017209128320239464,
+      "delta_pred": 0.0004621287058829294
+    },
+    {
+      "dataset_id": 40994,
+      "kind": "rotate",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.04638982416760218,
+      "delta_pred": 0.0
+    },
+    {
+      "dataset_id": 40994,
+      "kind": "rotate",
+      "dose": 1.0,
+      "cohort": "extension",
+      "delta_obs": 0.06359895248784153,
+      "delta_pred": 0.0007142368385247167
+    },
+    {
+      "dataset_id": 40994,
+      "kind": "rotate",
+      "dose": 2.0,
+      "cohort": "extension",
+      "delta_obs": 0.01833146277590736,
+      "delta_pred": 0.008241426691308257
+    },
+    {
+      "dataset_id": 40994,
+      "kind": "select_features",
+      "dose": 0.1,
+      "cohort": "extension",
+      "delta_obs": 0.047699214365881204,
+      "delta_pred": 0.002298786205668077
+    },
+    {
+      "dataset_id": 40994,
+      "kind": "select_features",
+      "dose": 0.25,
+      "cohort": "extension",
+      "delta_obs": 0.025252525252525193,
+      "delta_pred": 0.01302971563266827
+    },
+    {
+      "dataset_id": 40994,
+      "kind": "select_features",
+      "dose": 0.5,
+      "cohort": "extension",
+      "delta_obs": 0.026936026936027035,
+      "delta_pred": 0.003484808441634126
+    },
+    {
+      "dataset_id": 40994,
+      "kind": "select_features",
+      "dose": 0.75,
+      "cohort": "extension",
+      "delta_obs": 0.026936026936027146,
+      "delta_pred": -0.0009048708297851194
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "dataset_id": 40966,
+  "name": "MiceProtein",
+  "n_rows": 1080,
+  "n_features": 77,
+  "n_classes": 8,
+  "categorical_cols": [],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 648,
+    "val": 216,
+    "test": 216
+  }
+}

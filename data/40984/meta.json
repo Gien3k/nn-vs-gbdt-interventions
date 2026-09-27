@@ -1,0 +1,15 @@
+{
+  "dataset_id": 40984,
+  "name": "segment",
+  "n_rows": 2044,
+  "n_features": 16,
+  "n_classes": 7,
+  "categorical_cols": [],
+  "duplicates_removed": 266,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 1226,
+    "val": 409,
+    "test": 409
+  }
+}

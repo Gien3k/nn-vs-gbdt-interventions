@@ -1,0 +1,21 @@
+{
+  "dataset_id": 22,
+  "kind": "rotate",
+  "dose": 2.0,
+  "families": {
+    "mlp": {
+      "test_auc_mean": 0.9835939959315075,
+      "test_auc_std": 0.0007223667535082728
+    },
+    "xgb": {
+      "test_auc_mean": 0.9753080732328643,
+      "test_auc_std": 0.0002599646665188785
+    },
+    "lgbm": {
+      "test_auc_mean": 0.9755552447311965,
+      "test_auc_std": 9.45241604245112e-05
+    }
+  },
+  "nn_minus_gbdt": 0.008038751200311056,
+  "baseline_margin": 0.009601828044028538
+}

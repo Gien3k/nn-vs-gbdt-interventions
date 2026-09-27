@@ -1,0 +1,27 @@
+{
+  "dataset_id": 37,
+  "arch": "resnet",
+  "kind": "base",
+  "dose": 0,
+  "best_cfg": {
+    "width": 128,
+    "depth": 1,
+    "hidden_factor": 4.0,
+    "hidden_dropout": 0.0,
+    "residual_dropout": 0.0,
+    "lr": 0.0009147729309735575,
+    "weight_decay": 3.3205690961903956e-05
+  },
+  "val_auc": 0.8843639080889222,
+  "n_trials_ok": 30,
+  "test_aucs": [
+    0.7742592592592592,
+    0.7748148148148148,
+    0.7783333333333333
+  ],
+  "arch_auc": 0.7758024691358024,
+  "gbdt_auc": 0.7906666666666666,
+  "margin": -0.01486419753086421,
+  "mlp_auc": 0.7807037037037037,
+  "seconds": 5.0
+}

@@ -1,0 +1,35 @@
+{
+  "dataset_id": 6332,
+  "name": "cylinder-bands",
+  "n_rows": 540,
+  "n_features": 37,
+  "n_classes": 2,
+  "categorical_cols": [
+    "customer",
+    "grain_screened",
+    "ink_color",
+    "proof_on_ctd_ink",
+    "blade_mfg",
+    "cylinder_division",
+    "paper_type",
+    "ink_type",
+    "direct_steam",
+    "solvent_type",
+    "type_on_cylinder",
+    "press_type",
+    "press",
+    "cylinder_size",
+    "paper_mill_location",
+    "plating_tank",
+    "caliper",
+    "current_density",
+    "chrome_content"
+  ],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 324,
+    "val": 108,
+    "test": 108
+  }
+}

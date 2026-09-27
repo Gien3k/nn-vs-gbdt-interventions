@@ -1,0 +1,15 @@
+{
+  "dataset_id": 1497,
+  "name": "wall-robot-navigation",
+  "n_rows": 5456,
+  "n_features": 24,
+  "n_classes": 4,
+  "categorical_cols": [],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 3273,
+    "val": 1091,
+    "test": 1092
+  }
+}

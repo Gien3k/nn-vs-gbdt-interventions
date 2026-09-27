@@ -1,0 +1,38 @@
+{
+  "dataset_id": 38,
+  "name": "sick",
+  "n_rows": 3711,
+  "n_features": 29,
+  "n_classes": 2,
+  "categorical_cols": [
+    "sex",
+    "on_thyroxine",
+    "query_on_thyroxine",
+    "on_antithyroid_medication",
+    "sick",
+    "pregnant",
+    "thyroid_surgery",
+    "I131_treatment",
+    "query_hypothyroid",
+    "query_hyperthyroid",
+    "lithium",
+    "goitre",
+    "tumor",
+    "hypopituitary",
+    "psych",
+    "TSH_measured",
+    "T3_measured",
+    "TT4_measured",
+    "T4U_measured",
+    "FTI_measured",
+    "TBG_measured",
+    "referral_source"
+  ],
+  "duplicates_removed": 61,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 2226,
+    "val": 742,
+    "test": 743
+  }
+}

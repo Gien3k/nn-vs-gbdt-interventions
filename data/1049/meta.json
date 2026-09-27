@@ -1,0 +1,15 @@
+{
+  "dataset_id": 1049,
+  "name": "pc4",
+  "n_rows": 1344,
+  "n_features": 37,
+  "n_classes": 2,
+  "categorical_cols": [],
+  "duplicates_removed": 114,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 806,
+    "val": 269,
+    "test": 269
+  }
+}

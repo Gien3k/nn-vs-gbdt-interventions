@@ -1,0 +1,21 @@
+{
+  "dataset_id": 1475,
+  "kind": "quantize",
+  "dose": 4,
+  "families": {
+    "mlp": {
+      "test_auc_mean": 0.7661078524667019,
+      "test_auc_std": 0.0038252092473379925
+    },
+    "xgb": {
+      "test_auc_mean": 0.8047563875703423,
+      "test_auc_std": 5.477361093758149e-05
+    },
+    "lgbm": {
+      "test_auc_mean": 0.8034845201583032,
+      "test_auc_std": 0.0003469520027779475
+    }
+  },
+  "nn_minus_gbdt": -0.03864853510364041,
+  "baseline_margin": -0.04442977762863387
+}

@@ -1,0 +1,15 @@
+{
+  "dataset_id": 182,
+  "name": "satimage",
+  "n_rows": 6430,
+  "n_features": 36,
+  "n_classes": 6,
+  "categorical_cols": [],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 3858,
+    "val": 1286,
+    "test": 1286
+  }
+}

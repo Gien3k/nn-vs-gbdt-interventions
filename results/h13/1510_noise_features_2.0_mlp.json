@@ -1,0 +1,25 @@
+{
+  "best_cfg": {
+    "width": 64,
+    "depth": 1,
+    "dropout": 0.25,
+    "lr": 0.00288027359895598,
+    "weight_decay": 5.02566348057408e-05
+  },
+  "val_auc": 1.0,
+  "test_aucs": [
+    0.9983622666229938,
+    0.998689813298395,
+    0.998689813298395,
+    0.9980347199475925,
+    0.9963969865705864
+  ],
+  "n_trials_ok": 30,
+  "reused": false,
+  "dataset_id": 1510,
+  "kind": "noise_features",
+  "dose": 2.0,
+  "family": "mlp",
+  "test_auc": 0.9980347199475925,
+  "seconds": 14.9
+}

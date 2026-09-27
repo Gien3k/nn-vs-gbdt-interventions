@@ -1,0 +1,29 @@
+{
+  "dataset_id": 31,
+  "name": "credit-g",
+  "n_rows": 1000,
+  "n_features": 20,
+  "n_classes": 2,
+  "categorical_cols": [
+    "checking_status",
+    "credit_history",
+    "purpose",
+    "savings_status",
+    "employment",
+    "personal_status",
+    "other_parties",
+    "property_magnitude",
+    "other_payment_plans",
+    "housing",
+    "job",
+    "own_telephone",
+    "foreign_worker"
+  ],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 600,
+    "val": 200,
+    "test": 200
+  }
+}

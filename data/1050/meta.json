@@ -1,0 +1,15 @@
+{
+  "dataset_id": 1050,
+  "name": "pc3",
+  "n_rows": 1439,
+  "n_features": 37,
+  "n_classes": 2,
+  "categorical_cols": [],
+  "duplicates_removed": 124,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 863,
+    "val": 288,
+    "test": 288
+  }
+}

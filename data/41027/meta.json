@@ -1,0 +1,15 @@
+{
+  "dataset_id": 41027,
+  "name": "jungle_chess_2pcs_raw_endgame_complete",
+  "n_rows": 44819,
+  "n_features": 6,
+  "n_classes": 3,
+  "categorical_cols": [],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 26891,
+    "val": 8964,
+    "test": 8964
+  }
+}

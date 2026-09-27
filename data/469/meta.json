@@ -1,0 +1,20 @@
+{
+  "dataset_id": 469,
+  "name": "analcatdata_dmft",
+  "n_rows": 556,
+  "n_features": 4,
+  "n_classes": 6,
+  "categorical_cols": [
+    "DMFT.Begin",
+    "DMFT.End",
+    "Gender",
+    "Ethnic"
+  ],
+  "duplicates_removed": 241,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 333,
+    "val": 111,
+    "test": 112
+  }
+}

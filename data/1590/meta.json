@@ -1,0 +1,24 @@
+{
+  "dataset_id": 1590,
+  "name": "adult",
+  "n_rows": 48790,
+  "n_features": 14,
+  "n_classes": 2,
+  "categorical_cols": [
+    "workclass",
+    "education",
+    "marital-status",
+    "occupation",
+    "relationship",
+    "race",
+    "sex",
+    "native-country"
+  ],
+  "duplicates_removed": 52,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 29274,
+    "val": 9758,
+    "test": 9758
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset_id": 1487,
+  "name": "ozone-level-8hr",
+  "n_rows": 2526,
+  "n_features": 72,
+  "n_classes": 2,
+  "categorical_cols": [],
+  "duplicates_removed": 8,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 1515,
+    "val": 505,
+    "test": 506
+  }
+}

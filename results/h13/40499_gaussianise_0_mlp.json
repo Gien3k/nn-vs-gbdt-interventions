@@ -1,0 +1,25 @@
+{
+  "best_cfg": {
+    "width": 512,
+    "depth": 4,
+    "dropout": 0.0,
+    "lr": 0.0007435908910986576,
+    "weight_decay": 0.00028258084633128863
+  },
+  "val_auc": 1.0,
+  "test_aucs": [
+    0.9999972590223846,
+    0.9999990863407949,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "n_trials_ok": 30,
+  "reused": false,
+  "dataset_id": 40499,
+  "kind": "gaussianise",
+  "dose": 0,
+  "family": "mlp",
+  "test_auc": 0.9999992690726358,
+  "seconds": 88.5
+}

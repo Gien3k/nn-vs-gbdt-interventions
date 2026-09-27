@@ -1,0 +1,20 @@
+{
+  "dataset_id": 40701,
+  "name": "churn",
+  "n_rows": 5000,
+  "n_features": 20,
+  "n_classes": 2,
+  "categorical_cols": [
+    "area_code",
+    "international_plan",
+    "voice_mail_plan",
+    "number_customer_service_calls"
+  ],
+  "duplicates_removed": 0,
+  "split_seed": 20260717,
+  "split_sizes": {
+    "train": 3000,
+    "val": 1000,
+    "test": 1000
+  }
+}

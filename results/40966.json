@@ -1,0 +1,135 @@
+{
+  "dataset_id": 40966,
+  "name": "MiceProtein",
+  "families": {
+    "mlp": {
+      "best_cfg": {
+        "width": 64,
+        "depth": 3,
+        "dropout": 0.0,
+        "lr": 0.0010932778967646351,
+        "weight_decay": 1.7400000109550376e-06
+      },
+      "val_auc": 1.0,
+      "test_runs": [
+        {
+          "roc_auc_ovr": 1.0,
+          "accuracy": 1.0,
+          "log_loss": 0.009426088072359562
+        },
+        {
+          "roc_auc_ovr": 1.0,
+          "accuracy": 0.9953703703703703,
+          "log_loss": 0.03001636080443859
+        },
+        {
+          "roc_auc_ovr": 1.0,
+          "accuracy": 1.0,
+          "log_loss": 0.025849275290966034
+        },
+        {
+          "roc_auc_ovr": 1.0,
+          "accuracy": 1.0,
+          "log_loss": 0.015299192629754543
+        },
+        {
+          "roc_auc_ovr": 0.9998409683594869,
+          "accuracy": 0.9861111111111112,
+          "log_loss": 0.04735984653234482
+        }
+      ],
+      "test_auc_mean": 0.9999681936718974,
+      "test_auc_std": 6.361265620524748e-05,
+      "n_trials_ok": 30,
+      "tune_seconds": 23.9
+    },
+    "xgb": {
+      "best_cfg": {
+        "n_estimators": 1000,
+        "learning_rate": 0.0988485067239918,
+        "max_depth": 3,
+        "subsample": 0.9227235568798045,
+        "colsample_bytree": 0.6218130666560583,
+        "min_child_weight": 1.3446744953202716,
+        "reg_lambda": 1.6326995625676974
+      },
+      "val_auc": 0.999027730367336,
+      "test_runs": [
+        {
+          "roc_auc_ovr": 0.997917742518997,
+          "accuracy": 0.9351851851851852,
+          "log_loss": 0.16288608312606812
+        },
+        {
+          "roc_auc_ovr": 0.9980258109738397,
+          "accuracy": 0.9305555555555556,
+          "log_loss": 0.16872476041316986
+        },
+        {
+          "roc_auc_ovr": 0.9979421072312351,
+          "accuracy": 0.9305555555555556,
+          "log_loss": 0.1735478788614273
+        },
+        {
+          "roc_auc_ovr": 0.9979806312542274,
+          "accuracy": 0.9305555555555556,
+          "log_loss": 0.16833116114139557
+        },
+        {
+          "roc_auc_ovr": 0.997573089881931,
+          "accuracy": 0.9305555555555556,
+          "log_loss": 0.1750860959291458
+        }
+      ],
+      "test_auc_mean": 0.9978878763720461,
+      "test_auc_std": 0.00016158770356772183,
+      "n_trials_ok": 30,
+      "tune_seconds": 156.9
+    },
+    "lgbm": {
+      "best_cfg": {
+        "n_estimators": 500,
+        "learning_rate": 0.13451959086963178,
+        "num_leaves": 31,
+        "subsample": 0.9774527280978771,
+        "colsample_bytree": 0.6779135665726967,
+        "min_child_samples": 45,
+        "reg_lambda": 0.09211241456533219
+      },
+      "val_auc": 0.9992950857496855,
+      "test_runs": [
+        {
+          "roc_auc_ovr": 0.9989754299640798,
+          "accuracy": 0.9768518518518519,
+          "log_loss": 0.10976311590531779
+        },
+        {
+          "roc_auc_ovr": 0.9985555831508639,
+          "accuracy": 0.9675925925925926,
+          "log_loss": 0.1161852716735362
+        },
+        {
+          "roc_auc_ovr": 0.9982888538294751,
+          "accuracy": 0.9444444444444444,
+          "log_loss": 0.1275316125398728
+        },
+        {
+          "roc_auc_ovr": 0.9989303778879646,
+          "accuracy": 0.9675925925925926,
+          "log_loss": 0.11560536658266578
+        },
+        {
+          "roc_auc_ovr": 0.9990159233438803,
+          "accuracy": 0.9722222222222222,
+          "log_loss": 0.10729587897135916
+        }
+      ],
+      "test_auc_mean": 0.9987532336352528,
+      "test_auc_std": 0.00028441923135581824,
+      "n_trials_ok": 30,
+      "tune_seconds": 32.0
+    }
+  },
+  "winner": "mlp",
+  "nn_minus_gbdt": 0.0012149600366445634
+}

@@ -1,0 +1,135 @@
+{
+  "dataset_id": 23381,
+  "name": "dresses-sales",
+  "families": {
+    "mlp": {
+      "best_cfg": {
+        "width": 256,
+        "depth": 3,
+        "dropout": 0.1,
+        "lr": 0.004078601978664137,
+        "weight_decay": 0.0010095674630884754
+      },
+      "val_auc": 0.6362889983579639,
+      "test_runs": [
+        {
+          "roc_auc_ovr": 0.5545977011494253,
+          "accuracy": 0.54,
+          "log_loss": 0.680541455745697
+        },
+        {
+          "roc_auc_ovr": 0.5611658456486044,
+          "accuracy": 0.57,
+          "log_loss": 0.7070798277854919
+        },
+        {
+          "roc_auc_ovr": 0.5517241379310345,
+          "accuracy": 0.51,
+          "log_loss": 0.7015141248703003
+        },
+        {
+          "roc_auc_ovr": 0.6075533661740559,
+          "accuracy": 0.64,
+          "log_loss": 0.6892037987709045
+        },
+        {
+          "roc_auc_ovr": 0.5476190476190476,
+          "accuracy": 0.54,
+          "log_loss": 0.7173712849617004
+        }
+      ],
+      "test_auc_mean": 0.5645320197044336,
+      "test_auc_std": 0.021958818389285963,
+      "n_trials_ok": 30,
+      "tune_seconds": 3.2
+    },
+    "xgb": {
+      "best_cfg": {
+        "n_estimators": 1000,
+        "learning_rate": 0.03181968483172313,
+        "max_depth": 8,
+        "subsample": 0.6483746214723766,
+        "colsample_bytree": 0.9431761544578822,
+        "min_child_weight": 8.187176204046537,
+        "reg_lambda": 1.8812915918610746
+      },
+      "val_auc": 0.6465517241379309,
+      "test_runs": [
+        {
+          "roc_auc_ovr": 0.5997536945812807,
+          "accuracy": 0.61,
+          "log_loss": 0.7319948077201843
+        },
+        {
+          "roc_auc_ovr": 0.6042692939244664,
+          "accuracy": 0.62,
+          "log_loss": 0.7146458625793457
+        },
+        {
+          "roc_auc_ovr": 0.5997536945812808,
+          "accuracy": 0.61,
+          "log_loss": 0.7251098155975342
+        },
+        {
+          "roc_auc_ovr": 0.6104269293924467,
+          "accuracy": 0.62,
+          "log_loss": 0.7180965542793274
+        },
+        {
+          "roc_auc_ovr": 0.6071428571428571,
+          "accuracy": 0.61,
+          "log_loss": 0.7153175473213196
+        }
+      ],
+      "test_auc_mean": 0.6042692939244664,
+      "test_auc_std": 0.004170254548177464,
+      "n_trials_ok": 30,
+      "tune_seconds": 27.2
+    },
+    "lgbm": {
+      "best_cfg": {
+        "n_estimators": 200,
+        "learning_rate": 0.04386858777426407,
+        "num_leaves": 15,
+        "subsample": 0.6017636699524409,
+        "colsample_bytree": 0.9332596487830991,
+        "min_child_samples": 56,
+        "reg_lambda": 0.05172852917535059
+      },
+      "val_auc": 0.6518883415435139,
+      "test_runs": [
+        {
+          "roc_auc_ovr": 0.603448275862069,
+          "accuracy": 0.53,
+          "log_loss": 0.670036985264574
+        },
+        {
+          "roc_auc_ovr": 0.6075533661740559,
+          "accuracy": 0.55,
+          "log_loss": 0.6681002697399531
+        },
+        {
+          "roc_auc_ovr": 0.6100164203612479,
+          "accuracy": 0.57,
+          "log_loss": 0.6664267432932799
+        },
+        {
+          "roc_auc_ovr": 0.6116584564860427,
+          "accuracy": 0.55,
+          "log_loss": 0.6673779199764346
+        },
+        {
+          "roc_auc_ovr": 0.611247947454844,
+          "accuracy": 0.55,
+          "log_loss": 0.6678178315158015
+        }
+      ],
+      "test_auc_mean": 0.6087848932676518,
+      "test_auc_std": 0.0030277650106052137,
+      "n_trials_ok": 30,
+      "tune_seconds": 2.5
+    }
+  },
+  "winner": "lgbm",
+  "nn_minus_gbdt": -0.044252873563218276
+}
