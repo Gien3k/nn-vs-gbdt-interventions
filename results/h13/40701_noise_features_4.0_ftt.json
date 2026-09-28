@@ -1,0 +1,27 @@
+{
+  "best_cfg": {
+    "d_token": 192,
+    "n_blocks": 3,
+    "attn_dropout": 0.2,
+    "ffn_dropout": 0.25,
+    "residual_dropout": 0.0,
+    "lr": 0.00021607392245224851,
+    "weight_decay": 2.0299362736073845e-06
+  },
+  "val_auc": 0.8768483887746761,
+  "test_aucs": [
+    0.9070800091926853,
+    0.9106914212548015,
+    0.9240208148658852,
+    0.9102482025017237,
+    0.9214517876489708
+  ],
+  "n_trials_ok": 30,
+  "reused": false,
+  "dataset_id": 40701,
+  "kind": "noise_features",
+  "dose": 4.0,
+  "family": "ftt",
+  "test_auc": 0.9146984470928133,
+  "seconds": 390.1
+}

@@ -250,10 +250,30 @@ for key, net, n_ok, n in (("P1", "mlp", 55, 61), ("P1", "resnet", 56, 61),
 check("ftt A 17/24", h11["ftt"]["noise4x"]["n_direction_ok"] == 17, "")
 check("only dataset 38 incomplete", h13["incomplete_datasets"] == [38], "")
 gh = h13["global_holm_all_primary"]
-check("global Holm: all primary MLP/ResNet < 0.05, max 0.016",
-      all(v < 0.05 for k, v in gh.items() if k.split("/")[1] != "ftt")
-      and abs(max(v for k, v in gh.items() if k.split("/")[1] != "ftt")
-              - 0.016) < 0.0005, f"{gh}")
+check("global Holm over 12 completed tests, all < 0.05",
+      len(gh) == 12 and all(v < 0.05 for v in gh.values()), f"{gh}")
+check("global Holm max MLP-like 0.032",
+      abs(max(v for k, v in gh.items() if k.split("/")[1] != "ftt")
+          - 0.032) < 0.0005, "")
+check("global Holm max FTT 0.047",
+      abs(max(v for k, v in gh.items() if k.endswith("/ftt")) - 0.047)
+      < 0.0005, "")
+f1, f4 = h13["P1"]["ftt"], h13["P4"]["ftt"]
+for name, actual, expected, tol in (
+        ("FTT P1 -0.020", f1["mean"], -0.020, 0.0005),
+        ("FTT P1 median -0.003", f1["median"], -0.003, 0.0005),
+        ("FTT P1 p 0.010", f1["p"], 0.010, 0.0005),
+        ("FTT P1 new p 0.15", h13["P1_new"]["ftt"]["p"], 0.15, 0.005),
+        ("FTT P4 +0.006", f4["mean"], 0.006, 0.0005),
+        ("FTT P4 p 0.047", f4["p"], 0.047, 0.0005)):
+    check(name, abs(actual - expected) <= tol, f"actual {actual:.5f}")
+check("FTT P1 26/38", f1["n_direction_ok"] == 26 and f1["n"] == 38, "")
+check("P1 medians -0.020 / -0.028",
+      abs(h13["P1"]["mlp"]["median"] + 0.020) < 0.0005
+      and abs(h13["P1"]["resnet"]["median"] + 0.028) < 0.0005, "")
+check("FTT P1 new n=16", h13["P1_new"]["ftt"]["n"] == 16, "")
+check("FTT P4 26/42", f4["n_direction_ok"] == 26 and f4["n"] == 42, "")
+check("FTT P2 flagged incomplete", h13["P2"]["ftt"].get("incomplete"), "")
 
 # --- I. exploratory natural weak-feature link (h14) ------------------------
 h14 = json.loads((RESULTS_DIR / "h14_report.json").read_text())

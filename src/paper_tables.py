@@ -98,7 +98,7 @@ def confirm_rows(h13: dict) -> str:
         first = True
         for net in ("mlp", "resnet", "ftt"):
             e = h13[key].get(net, {})
-            if "p" not in e:
+            if "p" not in e or e.get("incomplete"):
                 continue
             p = e.get("holm_p", e["p"])
             lo, hi = e["mean_ci95"]

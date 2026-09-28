@@ -15,6 +15,11 @@ from h13_retuned import NOISE_DOSES, OUT, TIE
 
 REPORT = RESULTS_DIR / "h13_report.json"
 NETS = ["mlp", "resnet", "ftt"]
+# The FT-Transformer run was stopped after tiers 0-1 (base, 4p noise,
+# Gaussianisation, rotation), so its dose-response endpoint rests on the
+# few datasets whose intermediate doses happened to finish: reported as
+# incomplete, excluded from confirmatory claims and the global correction.
+INCOMPLETE = {("P2", "ftt")}
 
 
 def auc(did, kind, dose, fam):
@@ -125,10 +130,12 @@ def main() -> None:
                                    "P4": {str(k): v for k, v in p4.items()}}
     for key in ("P1", "P4"):
         holm(rep[key])
+    for key, net in INCOMPLETE:
+        rep[key][net]["incomplete"] = True
     # stricter, not pre-specified: Holm over ALL primary tests P1-P5 x nets
     flat = {f"{k}/{n}": {"p": rep[k][n]["p"]} for k in
             ("P1", "P2", "P3", "P4", "P5") for n in NETS
-            if "p" in rep[k].get(n, {})}
+            if "p" in rep[k].get(n, {}) and (k, n) not in INCOMPLETE}
     holm(flat)
     rep["global_holm_all_primary"] = {k: v["holm_p"] for k, v in flat.items()}
     # secondary: re-tuned vs frozen effect for the MLP on the original 24

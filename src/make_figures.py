@@ -250,28 +250,40 @@ def fig5_confirmatory() -> None:
     for arch in nets:
         name, col, mk = ARCH_STYLE[arch]
         g0 = {d: gap(d, "base", 0, arch) for d in ids}
-        per_dose = []
-        for x in NOISE_DOSES:
-            per_dose.append([gap(d, "noise_features", x, arch) - g0[d]
-                             for d in ids if g0[d] is not None
-                             and gap(d, "noise_features", x, arch)
-                             is not None])
-        if len(per_dose[-1]) < 5:
-            continue
-        m = [0.0] + [float(np.mean(v)) for v in per_dose]
-        se = [0.0] + [float(np.std(v, ddof=1) / np.sqrt(len(v)))
-                      for v in per_dose]
-        a1.errorbar(np.arange(5), m, yerr=se, color=col, marker=mk, ms=3.5,
-                    lw=1.6, capsize=2,
-                    label=f"{name} (n={len(per_dose[-1])})")
+        # only datasets with every dose, so each point uses the same datasets
+        full = [d for d in ids if g0[d] is not None and all(
+            gap(d, "noise_features", x, arch) is not None
+            for x in NOISE_DOSES)]
+        per_dose = [[gap(d, "noise_features", x, arch) - g0[d] for d in full]
+                    for x in NOISE_DOSES]
+        if len(full) >= 10:
+            m = [0.0] + [float(np.mean(v)) for v in per_dose]
+            se = [0.0] + [float(np.std(v, ddof=1) / np.sqrt(len(v)))
+                          for v in per_dose]
+            a1.errorbar(np.arange(5), m, yerr=se, color=col, marker=mk,
+                        ms=3.5, lw=1.6, capsize=2,
+                        label=f"{name} (n={len(full)})")
+        else:
+            # intermediate doses incomplete: show the primary endpoint only
+            v4 = [gap(d, "noise_features", 4.0, arch) - g0[d] for d in ids
+                  if g0[d] is not None
+                  and gap(d, "noise_features", 4.0, arch) is not None]
+            if len(v4) >= 10:
+                a1.errorbar([4.12], [np.mean(v4)],
+                            yerr=[np.std(v4, ddof=1) / np.sqrt(len(v4))],
+                            color=col, marker=mk, ms=5, capsize=2, lw=1.6,
+                            linestyle="none",
+                            label=f"{name}, 4p only (n={len(v4)})")
         rot = [gap(d, "rotate_full", 0, arch) - gap(d, "gaussianise", 0, arch)
                for d in ids if gap(d, "rotate_full", 0, arch) is not None
                and gap(d, "gaussianise", 0, arch) is not None]
         sel = [gap(d, "select_features", 0.25, arch) - g0[d] for d in fav
                if g0[d] is not None
                and gap(d, "select_features", 0.25, arch) is not None]
-        panels["rot"].append((arch, rot))
-        panels["sel"].append((arch, sel))
+        if len(rot) >= 5:
+            panels["rot"].append((arch, rot))
+        if len(sel) >= 5:
+            panels["sel"].append((arch, sel))
     a1.axhline(0, color="#555", lw=0.7)
     a1.set_xticks(np.arange(5))
     a1.set_xticklabels(["0", "0.5p", "p", "2p", "4p"])

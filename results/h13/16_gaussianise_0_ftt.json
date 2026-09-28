@@ -1,0 +1,27 @@
+{
+  "best_cfg": {
+    "d_token": 128,
+    "n_blocks": 1,
+    "attn_dropout": 0.1,
+    "ffn_dropout": 0.0,
+    "residual_dropout": 0.0,
+    "lr": 8.966772359835636e-05,
+    "weight_decay": 3.3461033702636964e-06
+  },
+  "val_auc": 0.9960629796284394,
+  "test_aucs": [
+    0.9968922061122617,
+    0.9973923489592014,
+    0.997489365838948,
+    0.9976370140228077,
+    0.9973727273448721
+  ],
+  "n_trials_ok": 30,
+  "reused": false,
+  "dataset_id": 16,
+  "kind": "gaussianise",
+  "dose": 0,
+  "family": "ftt",
+  "test_auc": 0.9973567324556181,
+  "seconds": 146.8
+}
