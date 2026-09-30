@@ -250,8 +250,8 @@ for key, net, n_ok, n in (("P1", "mlp", 55, 61), ("P1", "resnet", 56, 61),
 check("ftt A 17/24", h11["ftt"]["noise4x"]["n_direction_ok"] == 17, "")
 check("only dataset 38 incomplete", h13["incomplete_datasets"] == [38], "")
 gh = h13["global_holm_all_primary"]
-check("global Holm over 12 completed tests, all < 0.05",
-      len(gh) == 12 and all(v < 0.05 for v in gh.values()), f"{gh}")
+check("global Holm over 13 primary tests, all < 0.05",
+      len(gh) == 13 and all(v < 0.05 for v in gh.values()), f"{gh}")
 check("global Holm max MLP-like 0.032",
       abs(max(v for k, v in gh.items() if k.split("/")[1] != "ftt")
           - 0.032) < 0.0005, "")
@@ -273,7 +273,27 @@ check("P1 medians -0.020 / -0.028",
       and abs(h13["P1"]["resnet"]["median"] + 0.028) < 0.0005, "")
 check("FTT P1 new n=16", h13["P1_new"]["ftt"]["n"] == 16, "")
 check("FTT P4 26/42", f4["n_direction_ok"] == 26 and f4["n"] == 42, "")
-check("FTT P2 flagged incomplete", h13["P2"]["ftt"].get("incomplete"), "")
+f2 = h13["P2"]["ftt"]
+check("FTT P2 complete (not flagged)", not f2.get("incomplete"), "")
+for name, actual, expected, tol in (
+        ("FTT P2 rho -0.31", f2["mean_trend_rho"], -0.31, 0.005),
+        ("FTT P2 p 0.002", f2["p"], 0.002, 0.0005)):
+    check(name, abs(actual - expected) <= tol, f"actual {actual:.5f}")
+check("FTT P2 25/38", f2["n_direction_ok"] == 25 and f2["n"] == 38, "")
+check("MLP/ResNet P2 rho ~ -0.7",
+      all(abs(h13["P2"][n]["mean_trend_rho"] + 0.7) < 0.03
+          for n in ("mlp", "resnet")), "")
+from h13_analysis import gap as _gap  # noqa: E402
+_ids = json.loads((RESULTS_DIR / "h13_prereg.json").read_text())["datasets"]
+_full = [d for d in _ids if _gap(d, "base", 0, "ftt") is not None and all(
+    _gap(d, "noise_features", x, "ftt") is not None for x in (0.5, 1.0, 2.0,
+                                                               4.0))]
+_med = {n: float(np.median([_gap(d, "noise_features", 4.0, n)
+                            - _gap(d, "base", 0, n) for d in _full]))
+        for n in ("ftt", "mlp")}
+check("4p medians on FTT's 38: FTT -0.003, MLP -0.039",
+      len(_full) == 38 and abs(_med["ftt"] + 0.003) < 0.0005
+      and abs(_med["mlp"] + 0.039) < 0.0005, f"{_med}")
 
 # --- I. exploratory natural weak-feature link (h14) ------------------------
 h14 = json.loads((RESULTS_DIR / "h14_report.json").read_text())

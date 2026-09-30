@@ -15,11 +15,12 @@ from h13_retuned import NOISE_DOSES, OUT, TIE
 
 REPORT = RESULTS_DIR / "h13_report.json"
 NETS = ["mlp", "resnet", "ftt"]
-# The FT-Transformer run was stopped after tiers 0-1 (base, 4p noise,
-# Gaussianisation, rotation), so its dose-response endpoint rests on the
-# few datasets whose intermediate doses happened to finish: reported as
-# incomplete, excluded from confirmatory claims and the global correction.
-INCOMPLETE = {("P2", "ftt")}
+# The FT-Transformer run was paused after tiers 0-1 (base, 4p noise,
+# Gaussianisation, rotation) and resumed for tier 3 (noise doses .5/1/2),
+# which finished on 2026-09-30, so its dose-response endpoint is complete.
+# Endpoints listed here are reported as incomplete and excluded from
+# confirmatory claims and the global correction.
+INCOMPLETE: set = set()
 
 
 def auc(did, kind, dose, fam):
